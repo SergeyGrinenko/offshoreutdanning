@@ -1,0 +1,166 @@
+//@import '_global';
+@import 'variables';
+
+.contact-us {
+  &__header {
+
+  }
+
+  &__content {
+
+    .content-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 42.63px;
+      line-height: 58px;
+
+      @media(max-width: 768px) {
+        font-size: 35px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    form {
+      .selector {
+        font-size: 31.98px;
+        line-height: 44px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        @media(max-width: 768px) {
+          font-size: 25px;
+        }
+
+
+        select,
+        input {
+          border-radius: 7px;
+          box-sizing: border-box;
+          border: none;
+          font-size: 18px;
+          line-height: 39px;
+          outline: none;
+          width: 100%;
+          height: 44px;
+          display: block;
+          padding: 0 10px;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          text-indent: 1px;
+          text-overflow: '';
+
+          &::placeholder {
+            color: black;
+          }
+        }
+
+        .selector_wrapper {
+          max-width: 300px;
+          background: white;
+          border: 1px solid;
+          border-radius: 7px;
+
+          &.disabled {
+            &:after {
+              filter: contrast(0) opacity(0.6);
+            }
+          }
+
+          &:after {
+            position: absolute;
+            top: 14px;
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-right: 3px solid #a80073;
+            border-top: 3px solid #a80073;
+            transform: rotate(135deg);
+            right: 9px;
+          }
+
+          select {
+            padding: 0 10px;
+          }
+        }
+      }
+
+      .form {
+        max-width: 635px;
+        margin: 30px auto;
+        display: grid;
+        gap: 20px;
+
+        &__input {
+          outline: solid 1px $dark;
+          outline-offset: -1px;
+          border-radius: 7px;
+          resize: none;
+          margin-top: 10px;
+          padding: 11px 10px;
+          font-size: 17px;
+          border: 0;
+          line-height: 22px;
+          width: 100%;
+          box-sizing: border-box;
+        }
+
+        button {
+          width: 100%;
+          max-width: max-content;
+          font-weight: 600;
+          font-size: 23.99px;
+          line-height: 33px;
+          justify-self: center;
+          margin: 0;
+          border: none;
+          min-width: 257px;
+        }
+      }
+    }
+
+    #submited {
+
+      h1 {
+        font-size: 42.63px;
+        line-height: 58.05px
+      }
+
+      .card {
+        background: #D9D9D9;
+        border: 1px solid;
+        padding: 15px;
+        margin-bottom: 30px;
+
+        h2 {
+          font-size: 31.98px;
+          line-height: 43.55px
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        a {
+          text-decoration: underline;
+          color: $dark;
+        }
+
+      }
+    }
+  }
+}
+
+
+
+
+

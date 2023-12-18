@@ -1,0 +1,76 @@
+@each $color, $value in $theme-colors {
+  .bg-#{$color} {
+    background: $value;
+  }
+  .text-#{$color} {
+    color: $value;
+  }
+}
+
+@each $spase, $value in $spacers {
+  .p-#{$spase} {
+    padding: $value !important;
+  }
+
+  .pl-#{$spase} {
+    padding-left: $value !important;
+  }
+
+  .pr-#{$spase} {
+    padding-right: $value !important;
+  }
+
+  .pt-#{$spase} {
+    padding-top: $value !important;
+  }
+
+  .px-#{$spase} {
+    padding-left: $value !important;
+    padding-right: $value !important;
+  }
+
+  .pb-#{$spase} {
+    padding-bottom: $value !important;
+  }
+
+  .py-#{$spase} {
+    padding-top: $value !important;
+    padding-bottom: $value !important;
+  }
+
+  .m-#{$spase} {
+    margin: $value !important;
+  }
+
+  .ml-#{$spase} {
+    margin-left: $value !important;
+  }
+
+  .mr-#{$spase} {
+    margin-right: $value !important;
+  }
+
+  .mt-#{$spase} {
+    margin-top: $value !important;
+  }
+
+  .mb-#{$spase} {
+    margin-bottom: $value !important;
+  }
+
+  .mx-#{$spase} {
+    margin-left: $value !important;
+    margin-right: $value !important;
+  }
+
+  .my-#{$spase} {
+    margin-top: $value !important;
+    margin-bottom: $value !important;
+  }
+}
+
+//@each $col, $value in $columns {
+//  .col-#{$col} {
+//    width: $value;
+//  }
+//}

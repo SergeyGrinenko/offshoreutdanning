@@ -1,0 +1,215 @@
+@import "variables";
+
+.professions-guide-content {
+
+  .grid-4-6{
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (min-width: 870px){
+    grid-template-columns: 40% 56% !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .categories-filter {
+    @media (max-width: 767px) {
+      display: none;
+    }
+
+    h3{
+      &:first-child{
+        margin-top: 0;
+      }
+    }
+
+    .filter_inputs {
+      grid-gap: 5px;
+      display: grid;
+
+      &__item {
+        label {
+          height: 40px;
+          width: 100%;
+          min-width: 170px;
+          position: relative;
+          padding-left: 55px;
+          padding-right: $main-indent;
+          cursor: pointer;
+          display: flex !important;
+          align-items: center;
+          background: $info;
+          color: $dark;
+          margin-bottom: 0 !important;
+
+          .variation-price {
+            font-size: 12px;
+          }
+
+
+          input {
+            cursor: auto;
+            position: absolute;
+            opacity: 0;
+            visibility: hidden;
+
+            &:checked {
+              ~ .checkmark {
+                background-color: $pink;
+                background-image: url('../images/icon-radio-active.svg');
+                background-size: 55px;
+                background-position: center;
+              }
+            }
+          }
+
+          .checkmark {
+            &.radio {
+              border-radius: 50%;
+            }
+
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 40px;
+            width: 40px;
+            background-color: $gray;
+            background-image: url('../images/icon-radio.svg');
+            background-position: center;
+          }
+
+          .count {
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+
+        &.disabled {
+          filter: opacity(0.3);
+          user-select: none;
+          pointer-events: none;
+        }
+      }
+    }
+
+  }
+
+  .search_item {
+    display: grid;
+    grid-gap: 5px;
+
+    a {
+      transition: .3s;
+
+      &:hover {
+        filter: brightness(0.95);
+      }
+    }
+
+    .post_item{
+      p{
+        text-align: left;
+      }
+    }
+  }
+
+  .all-posts {
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+    input{
+      max-width: 300px;
+      width: 100%;
+    }
+  }
+
+  .filterInputs {
+    padding-bottom: 5px;
+
+    div.d-flex {
+      position: relative;
+    }
+
+    .disabled:before {
+      position: absolute;
+      width: 100%;
+      background: #464646de;
+      z-index: 1;
+      content: '';
+      height: calc(100% - 0px);
+    }
+
+    .radio_btn {
+      display: inline-table;
+      cursor: pointer;
+      max-width: 44px;
+      padding: 22px;
+      //height: 100%;
+      background: #b6b7b7;
+      background-image: url(/wp-content/themes/offshoreutdanning/assets/images/icon-radio.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      text-align: center;
+      color: white;
+
+      &.active {
+        background: $pink;
+        background-image: url(/wp-content/themes/offshoreutdanning/assets/images/icon-radio-active.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .count_posts {
+      width: 100%;
+      max-width: 44px;
+      display: none;
+
+      .counter {
+        padding: 10px;
+        text-align: center;
+        height: 100%;
+        display: table-cell;
+        width: 24px;
+        align-items: center;
+        justify-content: center;
+        line-height: 27px;
+        font-size: 16px;
+      }
+
+    }
+
+    input {
+      display: none;
+    }
+
+    label {
+      display: inline-block;
+      position: relative;
+      padding: 10px 20px;
+      cursor: pointer;
+      user-select: none; /* prevent highlight */
+      margin-bottom: 0;
+      line-height: 27px;
+      font-size: 16px;
+    }
+
+    i {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+  }
+}

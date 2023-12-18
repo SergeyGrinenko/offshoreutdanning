@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:"Error: It's not clear which file to import for '@import \"global\"'.\A        Candidates:\A          _global.scss\A          global.scss\A        Please delete or rename all but one of these files.\A         on line 1 of custom.scss\A \A 1: @import 'global';"}

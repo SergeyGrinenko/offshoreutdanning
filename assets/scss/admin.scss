@@ -1,0 +1,88 @@
+@import "variables";
+@import "mixins";
+
+.alternative_course_name {
+  .acf-label {
+    h4 {
+      margin: 0;
+    }
+  }
+}
+
+
+#members_box_id {
+  .postbox-header {
+    background: $white;
+
+    h2 {
+      padding-left: 2em;
+      color: #999;
+      font-weight: normal;
+    }
+  }
+
+  .inside {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  table {
+
+    thead {
+      text-align: left;
+    }
+
+    td, th {
+      &:first-child {
+        text-align: center;
+      }
+
+      padding: 5px;
+    }
+
+    tbody {
+      tr {
+        &:nth-child(even) {
+          background: $light-hover;
+        }
+      }
+    }
+  }
+}
+
+
+.load_courses_wrap {
+  display: flex;
+  flex-direction: column-reverse;
+
+  .load_courses_manually {
+    label.active {
+      span {
+        background: $success;
+        color: $white;
+        padding: 1px 5px;
+      }
+    }
+  }
+}
+
+.profession-guide__sidebar {
+  background: $primary;
+  padding: $main-indent;
+  color: $white;
+  line-height: 25px;
+
+  h2, h3, h4, h5 {
+    margin: 0;
+  }
+
+  ul {
+    list-style: square;
+    padding-left: 23px;
+  }
+
+  a {
+    color: $dark;
+    text-decoration: underline;
+  }
+}

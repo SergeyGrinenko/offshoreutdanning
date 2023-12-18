@@ -1,0 +1,46 @@
+.grouped_courses__body {
+  border: 1px solid #009af0; }
+  .grouped_courses__body .grouped-course-item:last-child {
+    margin-bottom: 0 !important; }
+  .grouped_courses__body .grouped-course-item__time {
+    flex-basis: 120px; }
+  .grouped_courses__body .grouped-course-item__price {
+    flex-basis: 120px; }
+  .grouped_courses__body .grouped-course-item.active .grouped-course-item__label {
+    background: #1dbf21;
+    color: #f2f2f2; }
+.grouped_courses .grouped_courses__body .pamelding {
+  max-width: 300px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  line-height: 30px;
+  transition: .2s;
+  margin: 0 auto; }
+
+.practice-type-message .show {
+  margin: 15px 0; }
+
+body.wp-admin .custom-row .row-block .block-editor-inner-blocks > .block-editor-block-list__layout:not([data-is-drop-zone="true"]) {
+  display: grid;
+  gap: 15px;
+  padding: 15px;
+  border: 1px dashed; }
+body.wp-admin .custom-row .row-block .block-editor-block-list__layout > .block-editor-block-list__block.wp-block.wp-block-acf-column {
+  border: 1px dashed gray;
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
+body:not(.wp-admin) .custom-row {
+  box-sizing: border-box; }
+  body:not(.wp-admin) .custom-row .row-block .col-block figure {
+    text-align: center; }
+  @media (max-width: 768px) {
+    body:not(.wp-admin) .custom-row .row-block {
+      grid-template-columns: 1fr !important; } }
+  @media (max-width: 500px) {
+    body:not(.wp-admin) .custom-row .row-block {
+      margin: auto; } }
+
+/*# sourceMappingURL=grouped_courses.css.map */

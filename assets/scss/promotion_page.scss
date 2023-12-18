@@ -1,0 +1,280 @@
+@import 'global';
+
+.promotion-section {
+  max-width: var(--maxwidthcontent);
+  margin: 0 auto;
+
+  .promo-course {
+    &.range {
+      border: 1px solid #0082ca;
+      border-top: 0;
+    }
+
+    .grouped_courses {
+    }
+
+    #page-lead-row {
+      margin-bottom: 0;
+
+      .page-lead-text-wrapper {
+        width: 100%;
+
+        .page-lead-text {
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+
+          h2 {
+            margin: 0;
+          }
+        }
+
+      }
+    }
+  }
+
+
+  .practic_type__item,
+  .mashine_type__item {
+    position: relative;
+
+    label {
+      margin-left: 35px;
+      margin-bottom: 0;
+      font-size: 1.4rem;
+      line-height: 30px;
+      cursor: pointer;
+    }
+
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+  }
+
+  .checkmark, .checkradio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: $grey;
+  }
+
+  .checkradio {
+    border-radius: 50%;
+  }
+
+  .practic_type__item:hover input ~ .checkradio,
+  .mashine_type__item:hover input ~ .checkmark {
+    background-color: $grey;
+  }
+
+  .practic_type__item input:checked ~ .checkradio,
+  .mashine_type__item input:checked ~ .checkmark {
+    background-color: $green;
+  }
+
+  .practic_type__item .checkradio:after,
+  .mashine_type__item .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .practic_type__item input:checked ~ .checkradio:after,
+  .mashine_type__item input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .practic_type__item .checkradio:after,
+  .mashine_type__item .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 6px;
+    height: 10px;
+    border-radius: 1px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .practic_type__item .checkradio {
+    &.required {
+      &:before {
+        position: absolute;
+        content: '';
+        border: 1px solid red;
+        background: #ff000014;
+        width: 23px;
+        border-radius: 50%;
+        height: 23px;
+      }
+    }
+  }
+
+  .mashine_type {
+
+    .description {
+      color: #8a8a8a;
+      font-size: 14px;
+    }
+
+    .mashine_type__item {
+
+      .checkmark {
+        &.required {
+          &:before {
+            position: absolute;
+            content: '';
+            border: 1px solid red;
+            background: #ff000014;
+            width: 23px;
+            height: 23px;
+          }
+        }
+      }
+
+      .price {
+        font-size: 12px;
+        color: #8a8a8a;
+      }
+    }
+  }
+
+  .calendar-date-promo {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.2rem;
+
+    span {
+      white-space: nowrap;
+      font-size: 1.4rem;
+      line-height: 1.5;
+      padding-left: 1.6rem;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+      padding-right: 1.6rem;
+      margin: 0;
+
+      &.daterange {
+        flex: auto;
+        background-color: var(--accent1);
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    span {
+      &.timeofday {
+        flex: 0 0 4rem;
+        background-color: var(--accent2);
+        color: white;
+      }
+
+      &.price {
+        flex: 0 0 7rem;
+        background-color: #e29c00;
+        color: white;
+        text-align: center;
+
+        span{
+          padding: 0;
+        }
+      }
+    }
+
+    a {
+      flex: 0 0 4rem;
+      font-size: 1.4rem;
+      line-height: 1.5;
+      margin: 0;
+      background-color: var(--accent1);
+      color: white;
+      align-items: center;
+      background-image: url("/wp-content/themes/offshoreutdanning/assets/images/icon-link.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 1.5rem;
+    }
+
+
+  }
+
+  .promoevent-button {
+    color: white;
+    text-align: center;
+    padding: 1rem 1.6rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: var(--mainbackground);
+    border-radius: 0.5rem;
+    border-bottom: 1px solid rgba(0, 151, 235, 0.1);
+    margin: 1rem auto;
+    display: block;
+    width: 20rem;
+    cursor: pointer;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    transition: .2s;
+
+    &.added{
+      background-color: var(--buttonactive);
+    }
+  }
+
+  .promoevent-button:active, .promoevent-button:focus {
+    color: white;
+  }
+
+  .promoevent-button:not(.added):hover {
+    background-color: var(--accent2) !important;
+    transition: .2s;
+  }
+
+  .calendar-selected {
+
+    a {
+      background-color: var(--buttonactive);
+      color: white;
+      cursor: default;
+    }
+
+    span {
+      &.timeofday,
+      &.price,
+      &.daterange {
+        background-color: var(--buttonactive);
+        color: white;
+        cursor: default;
+      }
+    }
+
+    &:hover {
+      span {
+        &.timeofday,
+        &.price,
+        &.daterange {
+          background-color: var(--buttonactive);
+          color: white;
+          cursor: default;
+        }
+      }
+
+      a {
+        background-color: var(--buttonactive);
+        color: white;
+        cursor: default;
+      }
+    }
+  }
+
+  .grouped_multi_courses{
+    border: 1px solid #0082ca;
+    margin-top: 4rem;
+  }
+}

@@ -1,0 +1,259 @@
+.archive-template .post-content a,
+.single-template .post-content a,
+.single-help-page .post-content a {
+  text-decoration: underline;
+  text-underline-offset: 4px; }
+.archive-template p,
+.single-template p,
+.single-help-page p {
+  font-size: 16px;
+  line-height: 26px;
+  word-break: break-word; }
+.archive-template ul,
+.single-template ul,
+.single-help-page ul {
+  font-size: 16px; }
+.archive-template blockquote,
+.single-template blockquote,
+.single-help-page blockquote {
+  padding: 16px 25px;
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column; }
+  .archive-template blockquote p,
+  .single-template blockquote p,
+  .single-help-page blockquote p {
+    margin: 0;
+    font-size: 13.5px;
+    line-height: 26px; }
+  .archive-template blockquote cite,
+  .single-template blockquote cite,
+  .single-help-page blockquote cite {
+    margin-top: 30px;
+    display: block;
+    float: right;
+    font-size: 12px;
+    line-height: 26px; }
+  .archive-template blockquote a,
+  .single-template blockquote a,
+  .single-help-page blockquote a {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline; }
+.archive-template .archive-header .taxonomy-image, .archive-template .archive-header .post-image,
+.archive-template .single-header .taxonomy-image,
+.archive-template .single-header .post-image,
+.archive-template .singhe-header .taxonomy-image,
+.archive-template .singhe-header .post-image,
+.single-template .archive-header .taxonomy-image,
+.single-template .archive-header .post-image,
+.single-template .single-header .taxonomy-image,
+.single-template .single-header .post-image,
+.single-template .singhe-header .taxonomy-image,
+.single-template .singhe-header .post-image,
+.single-help-page .archive-header .taxonomy-image,
+.single-help-page .archive-header .post-image,
+.single-help-page .single-header .taxonomy-image,
+.single-help-page .single-header .post-image,
+.single-help-page .singhe-header .taxonomy-image,
+.single-help-page .singhe-header .post-image {
+  height: 425px;
+  object-fit: cover; }
+.archive-template .archive-header__title,
+.archive-template .single-header__title,
+.archive-template .singhe-header__title,
+.single-template .archive-header__title,
+.single-template .single-header__title,
+.single-template .singhe-header__title,
+.single-help-page .archive-header__title,
+.single-help-page .single-header__title,
+.single-help-page .singhe-header__title {
+  padding: 40px 0; }
+  @media (max-width: 600px) {
+    .archive-template .archive-header__title,
+    .archive-template .single-header__title,
+    .archive-template .singhe-header__title,
+    .single-template .archive-header__title,
+    .single-template .single-header__title,
+    .single-template .singhe-header__title,
+    .single-help-page .archive-header__title,
+    .single-help-page .single-header__title,
+    .single-help-page .singhe-header__title {
+      padding: 30px 0; } }
+  .archive-template .archive-header__title h1,
+  .archive-template .single-header__title h1,
+  .archive-template .singhe-header__title h1,
+  .single-template .archive-header__title h1,
+  .single-template .single-header__title h1,
+  .single-template .singhe-header__title h1,
+  .single-help-page .archive-header__title h1,
+  .single-help-page .single-header__title h1,
+  .single-help-page .singhe-header__title h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 77px;
+    text-align: center; }
+    @media (max-width: 850px) {
+      .archive-template .archive-header__title h1,
+      .archive-template .single-header__title h1,
+      .archive-template .singhe-header__title h1,
+      .single-template .archive-header__title h1,
+      .single-template .single-header__title h1,
+      .single-template .singhe-header__title h1,
+      .single-help-page .archive-header__title h1,
+      .single-help-page .single-header__title h1,
+      .single-help-page .singhe-header__title h1 {
+        font-size: 47.12px;
+        line-height: 57px; } }
+    @media (max-width: 768px) {
+      .archive-template .archive-header__title h1,
+      .archive-template .single-header__title h1,
+      .archive-template .singhe-header__title h1,
+      .single-template .archive-header__title h1,
+      .single-template .single-header__title h1,
+      .single-template .singhe-header__title h1,
+      .single-help-page .archive-header__title h1,
+      .single-help-page .single-header__title h1,
+      .single-help-page .singhe-header__title h1 {
+        font-size: 30px;
+        line-height: 45px;
+        padding-bottom: 15px; } }
+  .archive-template .archive-header__title .description,
+  .archive-template .single-header__title .description,
+  .archive-template .singhe-header__title .description,
+  .single-template .archive-header__title .description,
+  .single-template .single-header__title .description,
+  .single-template .singhe-header__title .description,
+  .single-help-page .archive-header__title .description,
+  .single-help-page .single-header__title .description,
+  .single-help-page .singhe-header__title .description {
+    max-width: 880px;
+    margin: 36px auto 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; }
+    @media (max-width: 850px) {
+      .archive-template .archive-header__title .description,
+      .archive-template .single-header__title .description,
+      .archive-template .singhe-header__title .description,
+      .single-template .archive-header__title .description,
+      .single-template .single-header__title .description,
+      .single-template .singhe-header__title .description,
+      .single-help-page .archive-header__title .description,
+      .single-help-page .single-header__title .description,
+      .single-help-page .singhe-header__title .description {
+        font-size: 15px;
+        line-height: 26px; } }
+  .archive-template .archive-header__title a,
+  .archive-template .single-header__title a,
+  .archive-template .singhe-header__title a,
+  .single-template .archive-header__title a,
+  .single-template .single-header__title a,
+  .single-template .singhe-header__title a,
+  .single-help-page .archive-header__title a,
+  .single-help-page .single-header__title a,
+  .single-help-page .singhe-header__title a {
+    margin-bottom: 10px;
+    display: inline-block; }
+.archive-template .archive-content a,
+.archive-template .single-content a,
+.single-template .archive-content a,
+.single-template .single-content a,
+.single-help-page .archive-content a,
+.single-help-page .single-content a {
+  text-decoration: underline; }
+.archive-template .archive-content .posts-cards,
+.archive-template .single-content .posts-cards,
+.single-template .archive-content .posts-cards,
+.single-template .single-content .posts-cards,
+.single-help-page .archive-content .posts-cards,
+.single-help-page .single-content .posts-cards {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  padding: 50px 0; }
+  @media (max-width: 1100px) {
+    .archive-template .archive-content .posts-cards,
+    .archive-template .single-content .posts-cards,
+    .single-template .archive-content .posts-cards,
+    .single-template .single-content .posts-cards,
+    .single-help-page .archive-content .posts-cards,
+    .single-help-page .single-content .posts-cards {
+      grid-template-columns: repeat(2, minmax(250px, 1fr)); } }
+  @media (max-width: 750px) {
+    .archive-template .archive-content .posts-cards,
+    .archive-template .single-content .posts-cards,
+    .single-template .archive-content .posts-cards,
+    .single-template .single-content .posts-cards,
+    .single-help-page .archive-content .posts-cards,
+    .single-help-page .single-content .posts-cards {
+      grid-template-columns: repeat(1, minmax(250px, 1fr)); } }
+  .archive-template .archive-content .posts-cards .post-card,
+  .archive-template .single-content .posts-cards .post-card,
+  .single-template .archive-content .posts-cards .post-card,
+  .single-template .single-content .posts-cards .post-card,
+  .single-help-page .archive-content .posts-cards .post-card,
+  .single-help-page .single-content .posts-cards .post-card {
+    box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none; }
+    .archive-template .archive-content .posts-cards .post-card img,
+    .archive-template .single-content .posts-cards .post-card img,
+    .single-template .archive-content .posts-cards .post-card img,
+    .single-template .single-content .posts-cards .post-card img,
+    .single-help-page .archive-content .posts-cards .post-card img,
+    .single-help-page .single-content .posts-cards .post-card img {
+      width: calc(100% + 60px);
+      transform: translate(-30px, -30px); }
+    .archive-template .archive-content .posts-cards .post-card__content,
+    .archive-template .single-content .posts-cards .post-card__content,
+    .single-template .archive-content .posts-cards .post-card__content,
+    .single-template .single-content .posts-cards .post-card__content,
+    .single-help-page .archive-content .posts-cards .post-card__content,
+    .single-help-page .single-content .posts-cards .post-card__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .archive-template .archive-content .posts-cards .post-card__content h2,
+      .archive-template .single-content .posts-cards .post-card__content h2,
+      .single-template .archive-content .posts-cards .post-card__content h2,
+      .single-template .single-content .posts-cards .post-card__content h2,
+      .single-help-page .archive-content .posts-cards .post-card__content h2,
+      .single-help-page .single-content .posts-cards .post-card__content h2 {
+        font-weight: 400;
+        font-size: 23.99px;
+        line-height: 33px;
+        margin: 0; }
+      .archive-template .archive-content .posts-cards .post-card__content .short-description,
+      .archive-template .single-content .posts-cards .post-card__content .short-description,
+      .single-template .archive-content .posts-cards .post-card__content .short-description,
+      .single-template .single-content .posts-cards .post-card__content .short-description,
+      .single-help-page .archive-content .posts-cards .post-card__content .short-description,
+      .single-help-page .single-content .posts-cards .post-card__content .short-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 23px 0 0; }
+    .archive-template .archive-content .posts-cards .post-card__link,
+    .archive-template .single-content .posts-cards .post-card__link,
+    .single-template .archive-content .posts-cards .post-card__link,
+    .single-template .single-content .posts-cards .post-card__link,
+    .single-help-page .archive-content .posts-cards .post-card__link,
+    .single-help-page .single-content .posts-cards .post-card__link {
+      margin-top: 20px; }
+      .archive-template .archive-content .posts-cards .post-card__link a,
+      .archive-template .single-content .posts-cards .post-card__link a,
+      .single-template .archive-content .posts-cards .post-card__link a,
+      .single-template .single-content .posts-cards .post-card__link a,
+      .single-help-page .archive-content .posts-cards .post-card__link a,
+      .single-help-page .single-content .posts-cards .post-card__link a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px; }
+
+/*# sourceMappingURL=posts.css.map */

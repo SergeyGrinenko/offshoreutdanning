@@ -1,0 +1,4795 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,800);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q, blockquote {
+    quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+}
+
+a img {
+    border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+.ptn, .pvn, .pan {
+    padding-top: 0px !important;
+    padding-top: 0rem !important;
+}
+
+.ptt, .pvt, .pat {
+    padding-top: 10px;
+    padding-top: 1rem;
+}
+
+.pts, .pvs, .pas {
+    padding-top: 20px;
+    padding-top: 2rem;
+}
+
+.ptm, .pvm, .pam {
+    padding-top: 40px;
+    padding-top: 4rem;
+}
+
+.ptl, .pvl, .pal {
+    padding-top: 60px;
+    padding-top: 6rem;
+}
+
+.pth, .pvh, .pah {
+    padding-top: 80px;
+    padding-top: 8rem;
+}
+
+.prn, .phn, .pan {
+    padding-right: 0px !important;
+    padding-right: 0rem !important;
+}
+
+.prt, .pht, .pat {
+    padding-right: 10px;
+    padding-right: 1rem;
+}
+
+.prs, .phs, .pas {
+    padding-right: 20px;
+    padding-right: 2rem;
+}
+
+.prm, .phm, .pam {
+    padding-right: 40px;
+    padding-right: 4rem;
+}
+
+.prl, .phl, .pal {
+    padding-right: 60px;
+    padding-right: 6rem;
+}
+
+.prh, .phh, .pah {
+    padding-right: 80px;
+    padding-right: 8rem;
+}
+
+.pbn, .pvn, .pan {
+    padding-bottom: 0px !important;
+    padding-bottom: 0rem !important;
+}
+
+.pbt, .pvt, .pat {
+    padding-bottom: 10px;
+    padding-bottom: 1rem;
+}
+
+.pbs, .pvs, .pas {
+    padding-bottom: 20px;
+    padding-bottom: 2rem;
+}
+
+.pbm, .pvm, .pam {
+    padding-bottom: 40px;
+    padding-bottom: 4rem;
+}
+
+.pbl, .pvl, .pal {
+    padding-bottom: 60px;
+    padding-bottom: 6rem;
+}
+
+.pbh, .pvh, .pah {
+    padding-bottom: 80px;
+    padding-bottom: 8rem;
+}
+
+.pln, .phn, .pan {
+    padding-left: 0px !important;
+    padding-left: 0rem !important;
+}
+
+.plt, .pht, .pat {
+    padding-left: 10px;
+    padding-left: 1rem;
+}
+
+.pls, .phs, .pas {
+    padding-left: 20px;
+    padding-left: 2rem;
+}
+
+.plm, .phm, .pam {
+    padding-left: 40px;
+    padding-left: 4rem;
+}
+
+.pll, .phl, .pal {
+    padding-left: 60px;
+    padding-left: 6rem;
+}
+
+.plh, .phh, .pah {
+    padding-left: 80px;
+    padding-left: 8rem;
+}
+
+.mtn, .mvn, .man {
+    margin-top: 0px !important;
+    margin-top: 0rem !important;
+}
+
+.mtt, .mvt, .mat {
+    margin-top: 10px;
+    margin-top: 1rem;
+}
+
+.mts, .mvs, .mas {
+    margin-top: 20px;
+    margin-top: 2rem;
+}
+
+.mtm, .mvm, .mam {
+    margin-top: 40px;
+    margin-top: 4rem;
+}
+
+.mtl, .mvl, .mal {
+    margin-top: 60px;
+    margin-top: 6rem;
+}
+
+.mth, .mvh, .mah {
+    margin-top: 80px;
+    margin-top: 8rem;
+}
+
+.mrn, .mhn, .man {
+    margin-right: 0px !important;
+    margin-right: 0rem !important;
+}
+
+.mrt, .mht, .mat {
+    margin-right: 10px;
+    margin-right: 1rem;
+}
+
+.mrs, .mhs, .mas {
+    margin-right: 20px;
+    margin-right: 2rem;
+}
+
+.mrm, .mhm, .mam {
+    margin-right: 40px;
+    margin-right: 4rem;
+}
+
+.mrl, .mhl, .mal {
+    margin-right: 60px;
+    margin-right: 6rem;
+}
+
+.mrh, .mhh, .mah {
+    margin-right: 80px;
+    margin-right: 8rem;
+}
+
+.mbn, .mvn, .man {
+    margin-bottom: 0px !important;
+    margin-bottom: 0rem !important;
+}
+
+.mbt, .mvt, .mat {
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+}
+
+.mbs, .mvs, .mas {
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+
+.mbm, .mvm, .mam {
+    margin-bottom: 40px;
+    margin-bottom: 4rem;
+}
+
+.mbl, .mvl, .mal {
+    margin-bottom: 60px;
+    margin-bottom: 6rem;
+}
+
+.mbh, .mvh, .mah {
+    margin-bottom: 80px;
+    margin-bottom: 8rem;
+}
+
+.mln, .mhn, .man {
+    margin-left: 0px !important;
+    margin-left: 0rem !important;
+}
+
+.mlt, .mht, .mat {
+    margin-left: 10px;
+    margin-left: 1rem;
+}
+
+.mls, .mhs, .mas {
+    margin-left: 20px;
+    margin-left: 2rem;
+}
+
+.mlm, .mhm, .mam {
+    margin-left: 40px;
+    margin-left: 4rem;
+}
+
+.mll, .mhl, .mal {
+    margin-left: 60px;
+    margin-left: 6rem;
+}
+
+.mlh, .mhh, .mah {
+    margin-left: 80px;
+    margin-left: 8rem;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+a {
+    outline: none;
+}
+
+.p, .list, .text-content ul, .text-content ol, .list-oil, .table, .text-content p, .text-content .p, .text-content table, .listings .p-listing, .p-lead, .text-content .lead, .text-content .p-lead, .p-promo {
+    font-weight: 400;
+}
+
+.h1, .text-content h1, .text-content .h1 {
+    font-size: 42px;
+    font-size: 4.2rem;
+    margin: 0px 0px 16px 0px;
+    margin: 0rem 0rem 1.6rem 0rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.h1-subtext, .text-content .h1-subtext {
+    font-size: 24px;
+    font-size: 2.4rem;
+    margin: 10px 0px 30px 0px;
+    margin: 1rem 0rem 3rem 0rem;
+    font-weight: 400;
+    line-height: 0.8;
+}
+
+/*
+.h1-front {
+  @include font-size(5.5);
+  @include rempx(margin-left, 17);
+  font-weight: $fontWeightExtra;
+  color: $colorWhite;
+  line-height: 1.2
+}
+
+.h1-frontsub {
+  @include font-size($fontSizeMedium);
+  @include rempx(width,16);
+  background-color: $colorOrangeDark;
+  font-weight: $fontWeightNormal;
+  display: inline-block;
+  line-height: 1.4;
+}
+*/
+.h1-front, .text-content .h1-front {
+    font-size: 41px;
+    font-size: 4.1rem;
+    margin: 0px 10px;
+    margin: 0rem 1rem;
+    font-weight: 800;
+    display: inline-block;
+    color: white;
+    line-height: 0.9;
+    text-align: left;
+}
+.h1-front span, .text-content .h1-front span {
+    display: inline;
+    white-space: nowrap;
+}
+
+.h1-frontsub {
+    font-size: 22px;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    line-height: 60px;
+    line-height: 6rem;
+    font-weight: 400;
+}
+.h1-frontsub + .h1-frontsub {
+    margin-left: 10px;
+    margin-left: 1rem;
+}
+
+.h2, .text-content h2, .text-content .h2 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    margin: 24px 0px 10px 0px;
+    margin: 2.4rem 0rem 1rem 0rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.h3, .text-content h3, .text-content .h3 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin: 24px 0px 10px 0px;
+    margin: 2.4rem 0rem 1rem 0rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.h4, .text-content h4, .text-content .h4 {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin: 10px 0px;
+    margin: 1rem 0rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.h3-contact, .text-content .h3-contact {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.p-contact, .text-content .p-contact {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: normal;
+}
+
+.p, .list, .text-content ul, .text-content ol, .list-oil, .table, .text-content p, .text-content .p, .text-content table, .listings .p-listing {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: 10px 0px;
+    margin: 1rem 0rem;
+}
+
+.p-lead, .text-content .lead, .text-content .p-lead {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin: 10px 0px;
+    margin: 1rem 0rem;
+    line-height: 1.6;
+}
+
+.p-quote, .p-source {
+    margin: 20px 0px;
+    margin: 2rem 0rem;
+    line-height: 1.4;
+}
+
+.p-quote {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.p-source {
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+.h-promo {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin: 20px 0px 5px 0px;
+    margin: 2rem 0rem 0.5rem 0rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.p-promo {
+    margin: 5px 0px 20px 0px;
+    margin: 0.5rem 0rem 2rem 0rem;
+    line-height: 1.5;
+}
+
+.link, .text-content a[href], .text-content .link, .link-neg {
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(136, 136, 136, 0.3);
+    border-bottom-style: solid;
+}
+.link:focus, .text-content a[href]:focus, .link-neg:focus, .link:hover, .text-content a[href]:hover, .link-neg:hover {
+    border-bottom-width: 2px;
+    outline: none;
+}
+
+.link, .text-content a[href], .text-content .link {
+    color: #0085d6;
+}
+.link:hover, .text-content a[href]:hover {
+    color: #0078c2;
+}
+.link:active, .text-content a[href]:active {
+    color: #006cad;
+}
+.link:focus, .text-content a[href]:focus, .link:hover, .text-content a[href]:hover {
+    border-bottom-color: #00a4ff;
+}
+
+.link-neg {
+    color: white;
+}
+.link-neg:hover {
+    color: whitesmoke;
+}
+.link-neg:active {
+    color: #ebebeb;
+}
+.link-neg:focus, .link-neg:hover {
+    border-bottom-color: #d1d1d1;
+}
+
+.em, .text-content em, .text-content .em {
+    font-weight: 600;
+}
+
+.nb {
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.label-neg, .label-info, .label-guide, .label-pos, .label-price, .label-heading, .front-page .label-offshore {
+    padding: 1px 6px;
+    padding: 0.1rem 0.6rem;
+    color: white;
+}
+
+.label-neg {
+    background-color: #ce3627;
+}
+
+.label-info, .label-guide {
+    background-color: #b6b7b7;
+}
+
+.label-pos {
+    background-color: #1dbf21;
+}
+
+.label-info, .label-guide {
+    background-color: #6B78B4;
+}
+
+.label-guide {
+    padding: 2px 20px 4px 20px;
+    padding: 0.2rem 2rem 0.4rem 2rem;
+}
+
+.label-sweden {
+    padding: 2px 20px 4px 20px;
+    padding: 0.2rem 2rem 0.4rem 2rem;
+    color: #fecc00;
+    background-color: #006aa7;
+}
+
+.label-price {
+    background-color: #e29c00;
+}
+
+.label-heading {
+    background-color: #1e1f22;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.text-content img {
+    margin: 10px 0px;
+    margin: 1rem 0rem;
+    border: 30px solid white;
+    border: 3rem solid white;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.promo {
+    background-color: #00a4ff;
+    -moz-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
+    -webkit-transition: background-color 100ms;
+    transition: background-color 100ms;
+    display: block;
+}
+.promo:hover {
+    background-color: #0097eb;
+}
+.promo:active {
+    background-color: #008ad6;
+}
+
+.promo-noclick {
+    display: block;
+    background-color: #0085d6;
+}
+
+.icon {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.page-logo {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/logo-offshoreutdanning.svg');
+}
+
+.mdrn-no-svg .page-logo {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/logo-offshoreutdanning.png');
+}
+
+.cart-button .button-icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-left.svg');
+}
+
+.mdrn-no-svg .cart-button .button-icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-left.png');
+}
+
+.col > .field-link {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-left.svg');
+}
+
+.mdrn-no-svg .col > .field-link {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-left.png');
+}
+
+.col.field-link {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-left.svg');
+}
+
+.mdrn-no-svg .col.field-link {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-left.png');
+}
+
+.close-button .button-icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-left.svg');
+}
+
+.mdrn-no-svg .close-button .button-icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-left.png');
+}
+
+.submit-form {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.svg');
+}
+
+.mdrn-no-svg .submit-form {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.png');
+}
+
+.complete-form {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.svg');
+}
+
+.mdrn-no-svg .complete-form {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.png');
+}
+
+.col-right > .field-link {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.svg');
+}
+
+.mdrn-no-svg .col-right > .field-link {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.png');
+}
+
+.col-right.field-link {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.svg');
+}
+
+.mdrn-no-svg .col-right.field-link {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.png');
+}
+
+.site-cart .close-button .button-icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.svg');
+}
+
+.mdrn-no-svg .site-cart .close-button .button-icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.png');
+}
+
+.cart-content .gotoform {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.svg');
+}
+
+.mdrn-no-svg .cart-content .gotoform {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.png');
+}
+
+.enroll-button .button-icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.svg');
+}
+
+.mdrn-no-svg .enroll-button .button-icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-right.png');
+}
+
+.field-select {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-select.svg');
+}
+
+.mdrn-no-svg .field-select {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-select.png');
+}
+
+.field-check {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-check.svg');
+}
+
+.mdrn-no-svg .field-check {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-check.png');
+}
+
+.selected .field-check {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-check-active.svg');
+}
+
+.mdrn-no-svg .selected .field-check {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-check-active.png');
+}
+
+.field-radio {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-radio.svg');
+}
+
+.mdrn-no-svg .field-radio {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-radio.png');
+}
+
+.selected .field-radio {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-radio-active.svg');
+}
+
+.mdrn-no-svg .selected .field-radio {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-radio-active.png');
+}
+
+.contact-info .contact-phone .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-phone.svg');
+}
+
+.mdrn-no-svg .contact-info .contact-phone .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-phone.png');
+}
+
+.contact-info .contact-email .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-email.svg');
+}
+
+.mdrn-no-svg .contact-info .contact-email .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-email.png');
+}
+
+.course-locations .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-location.svg');
+}
+
+.mdrn-no-svg .course-locations .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-location.png');
+}
+
+.course-times .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-times.svg');
+}
+
+.mdrn-no-svg .course-times .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-times.png');
+}
+
+.course-prerequisites .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-prerequisites.svg');
+}
+
+.mdrn-no-svg .course-prerequisites .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-prerequisites.png');
+}
+
+.course-related .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-course.svg');
+}
+
+.mdrn-no-svg .course-related .icon {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-course.png');
+}
+
+.courses-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-courses.svg');
+}
+
+.mdrn-no-svg .courses-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-courses.png');
+}
+
+.career-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-career.svg');
+}
+
+.mdrn-no-svg .career-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-career.png');
+}
+
+.drilling-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-drilling.svg');
+}
+
+.mdrn-no-svg .drilling-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-drilling.png');
+}
+
+.business-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-business.svg');
+}
+
+.mdrn-no-svg .business-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-business.png');
+}
+
+.news-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-news.svg');
+}
+
+.mdrn-no-svg .news-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-news.png');
+}
+
+.sweden-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-sweden.svg');
+}
+
+.mdrn-no-svg .sweden-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-sweden.png');
+}
+
+.exclamation-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-exclamation.svg');
+}
+
+.mdrn-no-svg .exclamation-promo .promo-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-exclamation.png');
+}
+
+.oil-development .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/oil-development.svg');
+}
+
+.mdrn-no-svg .oil-development .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/oil-development.png');
+}
+
+.oil-workers .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/oil-workers.svg');
+}
+
+.mdrn-no-svg .oil-workers .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/oil-workers.png');
+}
+
+.oil-investments .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/oil-investments.svg');
+}
+
+.mdrn-no-svg .oil-investments .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/oil-investments.png');
+}
+
+.oil-future .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1213.png');
+}
+
+#page-1245 .oil-logo {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/logo-maersk.svg');
+}
+
+.mdrn-no-svg #page-1245 .oil-logo {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/logo-maersk.png');
+}
+
+#page-1246 .oil-logo {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/logo-lundin.svg');
+}
+
+.mdrn-no-svg #page-1246 .oil-logo {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/logo-lundin.png');
+}
+
+.oil-banner a {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1244.jpg');
+}
+
+.field-search {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-search.svg');
+}
+
+.mdrn-no-svg .field-search {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/icon-search.png');
+}
+
+.finance-deferral .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/finance-deferral.svg');
+}
+
+.mdrn-no-svg .finance-deferral .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/finance-deferral.png');
+}
+
+.finance-installment .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/finance-installment.svg');
+}
+
+.mdrn-no-svg .finance-installment .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/finance-installment.png');
+}
+
+.finance-loanfund .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/finance-loanfund.svg');
+}
+
+.mdrn-no-svg .finance-loanfund .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/finance-loanfund.png');
+}
+
+.booking-overview .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/booking-overview.svg');
+}
+
+.mdrn-no-svg .booking-overview .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/booking-overview.png');
+}
+
+.booking-employees .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/booking-employees.svg');
+}
+
+.mdrn-no-svg .booking-employees .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/booking-employees.png');
+}
+
+.booking-communication .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/booking-communication.svg');
+}
+
+.mdrn-no-svg .booking-communication .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/booking-communication.png');
+}
+
+#page-6 .lead-image, #page-39 .lead-image, #page-40 .lead-image, #page-1595 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page6.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-6 .lead-image, #page-39 .lead-image, #page-40 .lead-image, #page-1595 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page6-high.jpg');
+    }
+}
+.course-link#page-6 .field-img, .course-link#page-39 .field-img, .course-link#page-40 .field-img, .course-link#page-1595 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page6.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-6 .field-img, .course-link#page-39 .field-img, .course-link#page-40 .field-img, .course-link#page-1595 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page6-high.jpg');
+    }
+}
+
+#page-182 .lead-image, #page-1774 .lead-image, #page-1778 .lead-image, #page-1782 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page182.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-182 .lead-image, #page-1774 .lead-image, #page-1778 .lead-image, #page-1782 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page182-high.jpg');
+    }
+}
+.course-link#page-182 .field-img, .course-link#page-1774 .field-img, .course-link#page-1778 .field-img, .course-link#page-1782 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page182.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-182 .field-img, .course-link#page-1774 .field-img, .course-link#page-1778 .field-img, .course-link#page-1782 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page182-high.jpg');
+    }
+}
+
+#page-191 .lead-image, #page-1687 .lead-image, #page-1831 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page191.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-191 .lead-image, #page-1687 .lead-image, #page-1831 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page191-high.jpg');
+    }
+}
+.course-link#page-191 .field-img, .course-link#page-1687 .field-img, .course-link#page-1831 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page191.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-191 .field-img, .course-link#page-1687 .field-img, .course-link#page-1831 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page191-high.jpg');
+    }
+}
+
+#page-1157 .lead-image, #page-1165 .lead-image, #page-1528 .lead-image, #page-1538 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1157.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1157 .lead-image, #page-1165 .lead-image, #page-1528 .lead-image, #page-1538 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1157-high.jpg');
+    }
+}
+.course-link#page-1157 .field-img, .course-link#page-1165 .field-img, .course-link#page-1528 .field-img, .course-link#page-1538 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1157.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1157 .field-img, .course-link#page-1165 .field-img, .course-link#page-1528 .field-img, .course-link#page-1538 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1157-high.jpg');
+    }
+}
+
+#page-1158 .lead-image, #page-1174 .lead-image, #page-1369 .lead-image, #page-1448 .lead-image, #page-1458 .lead-image, #page-1468 .lead-image, #page-1478 .lead-image, #page-1488 .lead-image, #page-1605 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1158.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1158 .lead-image, #page-1174 .lead-image, #page-1369 .lead-image, #page-1448 .lead-image, #page-1458 .lead-image, #page-1468 .lead-image, #page-1478 .lead-image, #page-1488 .lead-image, #page-1605 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1158-high.jpg');
+    }
+}
+.course-link#page-1158 .field-img, .course-link#page-1174 .field-img, .course-link#page-1369 .field-img, .course-link#page-1448 .field-img, .course-link#page-1458 .field-img, .course-link#page-1468 .field-img, .course-link#page-1478 .field-img, .course-link#page-1488 .field-img, .course-link#page-1605 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1158.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1158 .field-img, .course-link#page-1174 .field-img, .course-link#page-1369 .field-img, .course-link#page-1448 .field-img, .course-link#page-1458 .field-img, .course-link#page-1468 .field-img, .course-link#page-1478 .field-img, .course-link#page-1488 .field-img, .course-link#page-1605 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1158-high.jpg');
+    }
+}
+
+#page-1619 .lead-image, #page-1623 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1619.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1619 .lead-image, #page-1623 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1619-high.jpg');
+    }
+}
+.course-link#page-1619 .field-img, .course-link#page-1623 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1619.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1619 .field-img, .course-link#page-1623 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1619-high.jpg');
+    }
+}
+
+#page-1162 .lead-image, #page-1163 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1162.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1162 .lead-image, #page-1163 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1162-high.jpg');
+    }
+}
+.course-link#page-1162 .field-img, .course-link#page-1163 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1162.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1162 .field-img, .course-link#page-1163 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1162-high.jpg');
+    }
+}
+
+#page-1160 .lead-image, #page-1161 .lead-image, #page-1216 .lead-image, #page-1215 .lead-image, #page-1375 .lead-image, #page-1417 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1160.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1160 .lead-image, #page-1161 .lead-image, #page-1216 .lead-image, #page-1215 .lead-image, #page-1375 .lead-image, #page-1417 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1160-high.jpg');
+    }
+}
+.course-link#page-1160 .field-img, .course-link#page-1161 .field-img, .course-link#page-1216 .field-img, .course-link#page-1215 .field-img, .course-link#page-1375 .field-img, .course-link#page-1417 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1160.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1160 .field-img, .course-link#page-1161 .field-img, .course-link#page-1216 .field-img, .course-link#page-1215 .field-img, .course-link#page-1375 .field-img, .course-link#page-1417 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1160-high.jpg');
+    }
+}
+
+#page-1164 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1164.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1164 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1164-high.jpg');
+    }
+}
+.course-link#page-1164 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1164.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1164 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1164-high.jpg');
+    }
+}
+
+#page-1166 .lead-image, #page-1220 .lead-image, #page-1751 .lead-image, #page-1847 .lead-image, #page-1735 .lead-image, #page-1743 .lead-image, #page-1886 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1166.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1166 .lead-image, #page-1220 .lead-image, #page-1751 .lead-image, #page-1847 .lead-image, #page-1735 .lead-image, #page-1743 .lead-image, #page-1886 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1166-high.jpg');
+    }
+}
+.course-link#page-1166 .field-img, .course-link#page-1220 .field-img, .course-link#page-1751 .field-img, .course-link#page-1847 .field-img, .course-link#page-1735 .field-img, .course-link#page-1743 .field-img, .course-link#page-1886 -field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1166.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1166 .field-img, .course-link#page-1220 .field-img, .course-link#page-1751 .field-img, .course-link#page-1847 .field-img, .course-link#page-1735 .field-img, .course-link#page-1743 .field-img, .course-link#page-1886 -field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1166-high.jpg');
+    }
+}
+
+#page-1167 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1167.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1167 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1167-high.jpg');
+    }
+}
+.course-link#page-1167 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1167.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1167 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1167-high.jpg');
+    }
+}
+
+#page-1169 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1169.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1169 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1169-high.jpg');
+    }
+}
+.course-link#page-1169 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1169.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1169 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1169-high.jpg');
+    }
+}
+
+#page-1170 .lead-image, #page-1171 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1170.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1170 .lead-image, #page-1171 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1170-high.jpg');
+    }
+}
+.course-link#page-1170 .field-img, .course-link#page-1171 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1170.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1170 .field-img, .course-link#page-1171 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1170-high.jpg');
+    }
+}
+
+#page-1172 .lead-image, #page-1384 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1172.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1172 .lead-image, #page-1384 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1172-high.jpg');
+    }
+}
+.course-link#page-1172 .field-img, .course-link#page-1384 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1172.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1172 .field-img, .course-link#page-1384 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1172-high.jpg');
+    }
+}
+
+#page-1173 .lead-image, #page-1221 .lead-image, #page-1786 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1173.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1173 .lead-image, #page-1221 .lead-image, #page-1786 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1173-high.jpg');
+    }
+}
+.course-link#page-1173 .field-img, .course-link#page-1221 .field-img, .course-link#page-1786 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1173.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1173 .field-img, .course-link#page-1221 .field-img, .course-link#page-1786 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1173-high.jpg');
+    }
+}
+
+#page-1175 .lead-image, #page-1361 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1175.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1175 .lead-image, #page-1361 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1175-high.jpg');
+    }
+}
+.course-link#page-1175 .field-img, .course-link#page-1361 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1175.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1175 .field-img, .course-link#page-1361 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1175-high.jpg');
+    }
+}
+
+#page-1176 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1176.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1176 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1176-high.jpg');
+    }
+}
+.course-link#page-1176 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1176.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1176 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1176-high.jpg');
+    }
+}
+
+#page-1177 .lead-image, #page-1179 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1177.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1177 .lead-image, #page-1179 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1177-high.jpg');
+    }
+}
+.course-link#page-1177 .field-img, .course-link#page-1179 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1177.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1177 .field-img, .course-link#page-1179 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1177-high.jpg');
+    }
+}
+
+#page-1178 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1178.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1178 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1178-high.jpg');
+    }
+}
+.course-link#page-1178 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1178.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1178 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1178-high.jpg');
+    }
+}
+
+#page-1180 .lead-image, #page-1759 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1180.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1180 .lead-image, #page-1759 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1180-high.jpg');
+    }
+}
+.course-link#page-1180 .field-img, .course-link#page-1759 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1180.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1180 .field-img, .course-link#page-1759 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1180-high.jpg');
+    }
+}
+
+#page-1181 .lead-image, #page-1839 .lead-image, #page-1843 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1181.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1181 .lead-image, #page-1839 .lead-image, #page-1843 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1181-high.jpg');
+    }
+}
+.course-link#page-1181 .field-img, .course-link#page-1839 .field-img, .course-link#page-1843 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1181.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1181 .field-img, .course-link#page-1839 .field-img, .course-link#page-1843 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1181-high.jpg');
+    }
+}
+
+#page-1182 .lead-image, #page-1184 .lead-image, #page-1168 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1182.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1182 .lead-image, #page-1184 .lead-image, #page-1168 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1182-high.jpg');
+    }
+}
+.course-link#page-1182 .field-img, .course-link#page-1184 .field-img, .course-link#page-1168 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1182.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1182 .field-img, .course-link#page-1184 .field-img, .course-link#page-1168 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1182-high.jpg');
+    }
+}
+
+#page-1183 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1183.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1183 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1183-high.jpg');
+    }
+}
+.course-link#page-1183 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1183.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1183 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1183-high.jpg');
+    }
+}
+
+#page-1185 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1185.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1185 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1185-high.jpg');
+    }
+}
+.course-link#page-1185 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1185.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1185 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1185-high.jpg');
+    }
+}
+
+#page-1186 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1186.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1186 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1186-high.jpg');
+    }
+}
+.course-link#page-1186 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1186.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1186 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1186-high.jpg');
+    }
+}
+
+#page-1187 .lead-image, #page-1426 .lead-image, #page-1431 .lead-image, #page-1439 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1187.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1187 .lead-image, #page-1426 .lead-image, #page-1431 .lead-image, #page-1439 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1187-high.jpg');
+    }
+}
+.course-link#page-1187 .field-img, .course-link#page-1426 .field-img, .course-link#page-1431 .field-img, .course-link#page-1439 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1187.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1187 .field-img, .course-link#page-1426 .field-img, .course-link#page-1431 .field-img, .course-link#page-1439 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1187-high.jpg');
+    }
+}
+
+#page-1188 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1188.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1188 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1188-high.jpg');
+    }
+}
+.course-link#page-1188 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1188.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1188 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1188-high.jpg');
+    }
+}
+
+#page-1189 .lead-image, #page-1190 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1189.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1189 .lead-image, #page-1190 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1189-high.jpg');
+    }
+}
+.course-link#page-1189 .field-img, .course-link#page-1190 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1189.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1189 .field-img, .course-link#page-1190 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1189-high.jpg');
+    }
+}
+
+#page-1198 .lead-image, #page-1330 .lead-image, #page-1323 .lead-image, #page-1316 .lead-image, #page-1302 .lead-image, #page-1295 .lead-image, #page-1288 .lead-image, #page-1309 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1198.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1198 .lead-image, #page-1330 .lead-image, #page-1323 .lead-image, #page-1316 .lead-image, #page-1302 .lead-image, #page-1295 .lead-image, #page-1288 .lead-image, #page-1309 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1198-high.jpg');
+    }
+}
+.course-link#page-1198 .field-img, .course-link#page-1330 .field-img, .course-link#page-1323 .field-img, .course-link#page-1316 .field-img, .course-link#page-1302 .field-img, .course-link#page-1295 .field-img, .course-link#page-1288 .field-img, .course-link#page-1309 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1198.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1198 .field-img, .course-link#page-1330 .field-img, .course-link#page-1323 .field-img, .course-link#page-1316 .field-img, .course-link#page-1302 .field-img, .course-link#page-1295 .field-img, .course-link#page-1288 .field-img, .course-link#page-1309 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1198-high.jpg');
+    }
+}
+
+#page-1204 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1204.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1204 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1204-high.jpg');
+    }
+}
+.course-link#page-1204 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1204.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1204 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1204-high.jpg');
+    }
+}
+
+#page-1394 .lead-image, #page-1405 .lead-image, #page-1411 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1394.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1394 .lead-image, #page-1405 .lead-image, #page-1411 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1394-high.jpg');
+    }
+}
+.course-link#page-1394 .field-img, .course-link#page-1405 .field-img, .course-link#page-1411 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1394.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1394 .field-img, .course-link#page-1405 .field-img, .course-link#page-1411 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1394-high.jpg');
+    }
+}
+
+#page-1498 .lead-image, #page-1508 .lead-image, #page-1518 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1498.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1498 .lead-image, #page-1508 .lead-image, #page-1518 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1498-high.jpg');
+    }
+}
+.course-link#page-1498 .field-img, .course-link#page-1508 .field-img, .course-link#page-1518 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1498.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1498 .field-img, .course-link#page-1508 .field-img, .course-link#page-1518 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1498-high.jpg');
+    }
+}
+
+#page-1213 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1213.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1213 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1213-high.png');
+    }
+}
+.course-link#page-1213 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1213.png');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1213 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1213-high.png');
+    }
+}
+
+#page-1214 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1214.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1214 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1214-high.jpg');
+    }
+}
+.course-link#page-1214 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1214.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1214 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1214-high.jpg');
+    }
+}
+
+#page-1244 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1244.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1244 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1244-high.jpg');
+    }
+}
+.course-link#page-1244 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1244.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1244 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1244-high.jpg');
+    }
+}
+
+#page-1245 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1245.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1245 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1245-high.jpg');
+    }
+}
+.course-link#page-1245 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1245.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1245 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1245-high.jpg');
+    }
+}
+
+#page-1246 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1246.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1246 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1246-high.jpg');
+    }
+}
+.course-link#page-1246 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1246.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1246 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1246-high.jpg');
+    }
+}
+
+#page-1548 .lead-image, #page-1627 .lead-image, #page-1643 .lead-image, #page-1645 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1548.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1548 .lead-image, #page-1627 .lead-image, #page-1643 .lead-image, #page-1645 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1548-high.jpg');
+    }
+}
+.course-link#page-1548 .field-img, .course-link#page-1627 .field-img, .course-link#page-1643 .field-img, .course-link#page-1645 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1548.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1548 .field-img, .course-link#page-1627 .field-img, .course-link#page-1643 .field-img, .course-link#page-1645 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1548-high.jpg');
+    }
+}
+
+#page-1606 .lead-image, #page-1610 .lead-image, #page-1250 .lead-image, #page-1629 .lead-image, #page-1633 .lead-image, #page-1631 .lead-image, #page-1635 .lead-image, #page-1637 .lead-image, #page-1639 .lead-image, #page-1641 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1606.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1606 .lead-image, #page-1610 .lead-image, #page-1250 .lead-image, #page-1629 .lead-image, #page-1633 .lead-image, #page-1631 .lead-image, #page-1635 .lead-image, #page-1637 .lead-image, #page-1639 .lead-image, #page-1641 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1606-high.jpg');
+    }
+}
+.course-link#page-1606 .field-img, .course-link#page-1610 .field-img, .course-link#page-1250 .field-img, .course-link#page-1629 .field-img, .course-link#page-1633 .field-img, .course-link#page-1631 .field-img, .course-link#page-1635 .field-img, .course-link#page-1637 .field-img, .course-link#page-1639 .field-img, .course-link#page-1641 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1606.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1606 .field-img, .course-link#page-1610 .field-img, .course-link#page-1250 .field-img, .course-link#page-1629 .field-img, .course-link#page-1633 .field-img, .course-link#page-1631 .field-img, .course-link#page-1635 .field-img, .course-link#page-1637 .field-img, .course-link#page-1639 .field-img, .course-link#page-1641 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1606-high.jpg');
+    }
+}
+
+#page-1711 .lead-image, #page-1719 .lead-image, #page-1727 .lead-image, #page-1560 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1711.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1711 .lead-image, #page-1719 .lead-image, #page-1727 .lead-image, #page-1560 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1711-high.jpg');
+    }
+}
+.course-link#page-1711 .field-img, .course-link#page-1719 .field-img, .course-link#page-1727 .field-img, .course-link#page-1560 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1711.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1711 .field-img, .course-link#page-1719 .field-img, .course-link#page-1727 .field-img, .course-link#page-1560 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1711-high.jpg');
+    }
+}
+
+#page-1695 .lead-image, #page-1703 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1695.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1695 .lead-image, #page-1703 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1695-high.jpg');
+    }
+}
+.course-link#page-1695 .field-img, .course-link#page-1703 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1695.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1695 .field-img, .course-link#page-1703 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1695-high.jpg');
+    }
+}
+
+#page-1799 .lead-image, #page-1807 .lead-image, #page-1815 .lead-image, #page-1823 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1799.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1799 .lead-image, #page-1807 .lead-image, #page-1815 .lead-image, #page-1823 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1799-high.jpg');
+    }
+}
+.course-link#page-1799 .field-img, .course-link#page-1807 .field-img, .course-link#page-1815 .field-img, .course-link#page-1823 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1799.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1799 .field-img, .course-link#page-1807 .field-img, .course-link#page-1815 .field-img, .course-link#page-1823 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1799-high.jpg');
+    }
+}
+
+#page-1650 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1650.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1650 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1650-high.jpg');
+    }
+}
+.course-link#page-1650 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1650.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1650 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1650-high.jpg');
+    }
+}
+
+#page-1894 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1894.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1894 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1894-high.jpg');
+    }
+}
+.course-link#page-1894 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1894.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1894 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1894-high.jpg');
+    }
+}
+
+#page-1885 .lead-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1885.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1885 .lead-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page1885-high.jpg');
+    }
+}
+.course-link#page-1885 .field-img {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1885.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .course-link#page-1885 .field-img {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/thumb-page1885-high.jpg');
+    }
+}
+
+.span1of1 {
+    width: 100%;
+}
+
+.span1of6 {
+    width: 16.66667%;
+}
+
+.span5of6 {
+    width: 83.33333%;
+}
+
+.span1of5 {
+    width: 20%;
+}
+
+.span2of5 {
+    width: 40%;
+}
+
+.span3of5 {
+    width: 60%;
+}
+
+.span4of5 {
+    width: 80%;
+}
+
+.span1of4 {
+    width: 25%;
+}
+
+.span3of4 {
+    width: 75%;
+}
+
+.span1of3 {
+    width: 33.33333%;
+}
+
+.span2of3 {
+    width: 66.66667%;
+}
+
+.span1of2 {
+    width: 50%;
+}
+
+.row, .row-last, .col, .col-right, .col-last {
+    overflow: hidden;
+}
+
+.row, .row-last {
+    display: block;
+}
+
+.col, .col-right, .col-last {
+    display: block;
+    height: 100%;
+}
+
+.col {
+    float: left;
+}
+
+.col-right {
+    float: right;
+}
+
+.col-last {
+    width: auto;
+}
+
+.v-align {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.v-aligner {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.h-align {
+    text-align: center;
+}
+
+.stretch-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+button::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner {
+    padding: 0 !important;
+    border: 0 none !important;
+}
+
+a.field-wrap:focus, .button.field-wrap:focus, .link-field:focus {
+    outline: solid 2px;
+    outline: solid 0.2rem;
+    outline-offset: -2px;
+    outline-offset: -0.2rem;
+    outline-color: #00a4ff;
+}
+a.field-wrap:active, a.field-wrap.selected, .button.field-wrap:active, .button.field-wrap.selected, .link-field:active, .link-field.selected {
+    outline: none;
+}
+
+.small {
+    width: 110px;
+    width: 11rem;
+}
+
+.medium {
+    width: 258px;
+    width: 25.8rem;
+}
+
+.large {
+    width: 406px;
+    width: 40.6rem;
+}
+
+.max {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.field-timeofday, .field-unspecified, .field-plain, .field-price, .field-count, .field-check, .field-radio {
+    font-size: 14px;
+    font-size: 1.4rem;
+    height: 37px;
+    height: 3.7rem;
+    line-height: 37px;
+    line-height: 3.7rem;
+    font-weight: 400;
+    display: block;
+}
+
+.field-link, .field-check, .field-radio {
+    width: 37px;
+    width: 3.7rem;
+    background-color: #b6b7b7;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    color: white;
+}
+.field-link:hover, .field-check:hover, .field-radio:hover {
+    background-color: #acadad;
+}
+.field-link:active, .field-check:active, .field-radio:active {
+    background-color: #a1a3a3;
+}
+
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    background-color: transparent;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.button .field-check, .button .field-radio {
+    background-color: #b6b7b7;
+}
+.button:hover .field-check, .button:hover .field-radio {
+    background-color: #acadad;
+}
+.button:active .field-check, .button:active .field-radio {
+    background-color: #a1a3a3;
+}
+.button .field-plain {
+    background-color: #d1d1d1;
+}
+.button:hover .field-plain {
+    background-color: #c7c7c7;
+}
+.button:active .field-plain {
+    background-color: #bdbdbd;
+}
+.button .field-link, .button .field-count, .button .campaign {
+    background-color: #00a4ff;
+}
+.button:hover .field-link, .button:hover .field-count, .button:hover .campaign {
+    background-color: #0097eb;
+}
+.button:active .field-link, .button:active .field-count, .button:active .campaign {
+    background-color: #008ad6;
+}
+.button .field-unspecified {
+    background-color: #b6b7b7;
+}
+.button:hover .field-unspecified {
+    background-color: #acadad;
+}
+.button:active .field-unspecified {
+    background-color: #a1a3a3;
+}
+.button .day {
+    background-color: #00a4ff;
+}
+.button:hover .day {
+    background-color: #0097eb;
+}
+.button:active .day {
+    background-color: #008ad6;
+}
+.button .evening {
+    background-color: #006fb2;
+}
+.button:hover .evening {
+    background-color: #00629e;
+}
+.button:active .evening {
+    background-color: #00558a;
+}
+.button .weekend {
+    background-color: #0085d6;
+}
+.button:hover .weekend {
+    background-color: #0078c2;
+}
+.button:active .weekend {
+    background-color: #006cad;
+}
+.button .field-price {
+    background-color: #e29c00;
+}
+.button:hover .field-price {
+    background-color: #ce8e00;
+}
+.button:active .field-price {
+    background-color: #b98000;
+}
+.button .summary {
+    background-color: #b6b7b7;
+}
+.button:hover .summary {
+    background-color: #acadad;
+}
+.button:active .summary {
+    background-color: #a1a3a3;
+}
+.button .campaign {
+    background-color: #1dbf21;
+}
+.button:hover .campaign {
+    background-color: #1aad1e;
+}
+.button:active .campaign {
+    background-color: #189c1b;
+}
+.button .fewseats {
+    background-color: #ce3627;
+}
+.button:hover .fewseats {
+    background-color: #bd3224;
+}
+.button:active .fewseats {
+    background-color: #ac2d21;
+}
+.button .button-icon, .button .button-text {
+    vertical-align: middle;
+}
+.button .button-icon {
+    height: 28px;
+    height: 2.8rem;
+    width: 28px;
+    width: 2.8rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.button .button-text {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin: 0px 10px;
+    margin: 0rem 1rem;
+    display: inline;
+}
+
+.button-noiconpadding {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    background-color: black !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+.button-noiconpadding:hover {
+    background-color: #d1d1d1 !important;
+    color: black !important;
+    font-weight: 600;
+}
+
+.selected.button .field-check, .selected.button .field-radio, .selected .button .field-check, .selected .button .field-radio {
+    background-color: #1dbf21;
+}
+.selected.button:hover .field-check, .selected.button:hover .field-radio, .selected .button:hover .field-check, .selected .button:hover .field-radio {
+    background-color: #1aad1e;
+}
+.selected.button:active .field-check, .selected.button:active .field-radio, .selected .button:active .field-check, .selected .button:active .field-radio {
+    background-color: #189c1b;
+}
+.selected.button:focus, .selected .button:focus {
+    outline: none;
+}
+
+.cart-button, .profession-button, .help-button, .course-button, .close-button {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+.cart-button:focus, .profession-button:focus, .help-button:focus, .course-button:focus, .close-button:focus {
+    -moz-box-shadow: 0 0 0 0.2rem #00a4ff;
+    -webkit-box-shadow: 0 0 0 0.2rem #00a4ff;
+    box-shadow: 0 0 0 0.2rem #00a4ff;
+    outline: none;
+}
+
+.course-button, .profession-button, .help-button, .close-button, .drilling-button, .safety-button, .crane-button, .enroll-button {
+    padding: 4px;
+    padding: 0.4rem;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -moz-border-radius: 1.6rem;
+    border-radius: 1.6rem;
+}
+
+.course-button {
+    background-color: #f2f2f2;
+    color: #1e1f22;
+}
+.course-button:hover {
+    background-color: #e8e8e8;
+}
+.course-button:active {
+    background-color: #dedede;
+}
+.course-button .button-icon {
+    background-color: #eda426;
+}
+.course-button:hover .button-icon {
+    background-color: #eb9c14;
+}
+.course-button:active .button-icon {
+    background-color: #d89012;
+}
+
+.drilling-button {
+    background-color: #f2f2f2;
+    color: #1e1f22;
+}
+.drilling-button:hover {
+    background-color: #e8e8e8;
+}
+.drilling-button:active {
+    background-color: #dedede;
+}
+.drilling-button .button-icon {
+    background-color: #00a4ff;
+}
+.drilling-button:hover .button-icon {
+    background-color: #0097eb;
+}
+.drilling-button:active .button-icon {
+    background-color: #008ad6;
+}
+
+.profession-button, .crane-button {
+    background-color: #f2f2f2;
+    color: #1e1f22;
+}
+.profession-button:hover, .crane-button:hover {
+    background-color: #e8e8e8;
+}
+.profession-button:active, .crane-button:active {
+    background-color: #dedede;
+}
+.profession-button .button-icon, .crane-button .button-icon {
+    background-color: #6B78B4;
+}
+.profession-button:hover .button-icon, .crane-button:hover .button-icon {
+    background-color: #5d6cad;
+}
+.profession-button:active .button-icon, .crane-button:active .button-icon {
+    background-color: #5361a3;
+}
+
+.help-button, .safety-button {
+    background-color: #f2f2f2;
+    color: #1e1f22;
+}
+.help-button:hover, .safety-button:hover {
+    background-color: #e8e8e8;
+}
+.help-button:active, .safety-button:active {
+    background-color: #dedede;
+}
+.help-button .button-icon, .safety-button .button-icon {
+    background-color: #1dbf21;
+}
+.help-button:hover .button-icon, .safety-button:hover .button-icon {
+    background-color: #1aad1e;
+}
+.help-button:active .button-icon, .safety-button:active .button-icon {
+    background-color: #189c1b;
+}
+
+.cart-button, .close-button, .enroll-button {
+    padding: 4px;
+    padding: 0.4rem;
+    color: #1e1f22;
+}
+.cart-button .button-icon, .close-button .button-icon, .enroll-button .button-icon {
+    background-color: #00a4ff;
+}
+.cart-button:hover .button-icon, .close-button:hover .button-icon, .enroll-button:hover .button-icon {
+    background-color: #0097eb;
+}
+.cart-button:active .button-icon, .close-button:active .button-icon, .enroll-button:active .button-icon {
+    background-color: #008ad6;
+}
+
+.cart-button {
+    background-color: #f2f2f2;
+    -moz-border-radius: 16px 0px 0px 16px;
+    border-radius: 16px 0px 0px 16px;
+    -moz-border-radius: 1.6rem 0rem 0rem 1.6rem;
+    border-radius: 1.6rem 0rem 0rem 1.6rem;
+}
+.cart-button:hover {
+    background-color: #e8e8e8;
+}
+.cart-button:active {
+    background-color: #dedede;
+}
+
+.field-button, .submit-form, .complete-form, .field-text, .field-textarea, .field-search {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    font-size: 14px;
+    font-size: 1.4rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    margin: 2px 6px 6px 2px;
+    margin: 0.2rem 0.6rem 0.6rem 0.2rem;
+    padding: 8px 16px;
+    padding: 0.8rem 1.6rem;
+    height: 21px;
+    height: 2.1rem;
+    border: none;
+    line-height: 1.5;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+.error.field-button, .error.submit-form, .error.complete-form, .error.field-text, .error.field-textarea, .error.field-search {
+    color: #ce3627;
+}
+.error.field-button::-webkit-input-placeholder, .error.submit-form::-webkit-input-placeholder, .error.complete-form::-webkit-input-placeholder, .error.field-text::-webkit-input-placeholder, .error.field-textarea::-webkit-input-placeholder, .error.field-search::-webkit-input-placeholder {
+    color: #eda8a1;
+}
+.error.field-button:-moz-placeholder, .error.submit-form:-moz-placeholder, .error.complete-form:-moz-placeholder, .error.field-text:-moz-placeholder, .error.field-textarea:-moz-placeholder, .error.field-search:-moz-placeholder {
+    color: #eda8a1;
+}
+.error.field-button::-moz-placeholder, .error.submit-form::-moz-placeholder, .error.complete-form::-moz-placeholder, .error.field-text::-moz-placeholder, .error.field-textarea::-moz-placeholder, .error.field-search::-moz-placeholder {
+    color: #eda8a1;
+}
+.error.field-button:-ms-input-placeholder, .error.submit-form:-ms-input-placeholder, .error.complete-form:-ms-input-placeholder, .error.field-text:-ms-input-placeholder, .error.field-textarea:-ms-input-placeholder, .error.field-search:-ms-input-placeholder {
+    color: #eda8a1;
+}
+
+.field-button, .submit-form, .complete-form {
+    background-color: #404144;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+.field-button:hover, .submit-form:hover, .complete-form:hover {
+    background-color: #363739;
+}
+.field-button:active, .submit-form:active, .complete-form:active {
+    background-color: #2c2d2f;
+}
+.field-button:focus, .submit-form:focus, .complete-form:focus {
+    outline: solid 2px;
+    outline: solid 0.2rem;
+    outline-offset: -2px;
+    outline-offset: -0.2rem;
+    outline-color: #00a4ff;
+}
+.field-button:active, .submit-form:active, .complete-form:active, .field-button.selected, .selected.submit-form, .selected.complete-form {
+    outline: none;
+}
+
+.submit-form, .complete-form {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    height: 42px;
+    height: 4.2rem;
+    margin-top: 40px;
+    margin-top: 4rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 80%;
+    line-height: 3;
+    text-align: left;
+}
+
+.complete-form {
+    background-color: #0085d6;
+}
+.complete-form:hover {
+    background-color: #0078c2;
+}
+.complete-form:active {
+    background-color: #006cad;
+}
+
+.field-text:focus, .field-textarea:focus, .field-search:focus {
+    outline: solid 2px;
+    outline: solid 0.2rem;
+    outline-offset: -2px;
+    outline-offset: -0.2rem;
+    outline-color: #00a4ff;
+}
+.field-text:active, .field-text.selected, .field-textarea:active, .field-textarea.selected, .field-search:active, .field-search.selected {
+    outline: none;
+}
+
+.locked .field-text {
+    background-color: #b6b7b7;
+    color: white;
+}
+
+.field-textarea {
+    resize: none;
+}
+
+.field-search {
+    background-position: center right 0.5rem;
+    background-repeat: no-repeat;
+}
+
+.field-select {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 2px 6px 6px 0px;
+    margin: 0.2rem 0.6rem 0.6rem 0rem;
+    background-color: #888888;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+}
+.field-select.small {
+    width: 142px;
+    width: 14.2rem;
+}
+.field-select.small .select {
+    width: 142px;
+    width: 14.2rem;
+}
+.field-select.medium {
+    width: 290px;
+    width: 29rem;
+}
+.field-select.medium .select {
+    width: 290px;
+    width: 29rem;
+}
+.field-select.large {
+    width: 438px;
+    width: 43.8rem;
+}
+.field-select.large .select {
+    width: 438px;
+    width: 43.8rem;
+}
+.field-select.max {
+    display: block;
+}
+.field-select .select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -moz-appearance: window;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 8px 53px 8px 16px;
+    padding: 0.8rem 5.3rem 0.8rem 1.6rem;
+    line-height: 1.5;
+    height: 37px;
+    height: 3.7rem;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+.field-select .select:focus {
+    outline: solid 2px;
+    outline: solid 0.2rem;
+    outline-offset: -2px;
+    outline-offset: -0.2rem;
+    outline-color: #00a4ff;
+}
+.field-select .select:active, .field-select .select.selected {
+    outline: none;
+}
+.field-select .select::-ms-expand {
+    display: none;
+}
+.field-select .select::-moz-focus-inner {
+    border: 0;
+    outline: 0;
+}
+.field-select.disabled {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5;
+}
+.field-select option {
+    color: black;
+}
+
+.locked .field-select {
+    background-image: none;
+    background-color: #a9aaaa;
+    white-space: nowrap;
+}
+.locked .field-select.small {
+    width: 142px;
+    width: 14.2rem;
+}
+.locked .field-select.small .select {
+    width: 105px;
+    width: 10.5rem;
+}
+.locked .field-select.medium {
+    width: 290px;
+    width: 29rem;
+}
+.locked .field-select.medium .select {
+    width: 253px;
+    width: 25.3rem;
+}
+.locked .field-select.large {
+    width: 438px;
+    width: 43.8rem;
+}
+.locked .field-select.large .select {
+    width: 401px;
+    width: 40.1rem;
+}
+.locked .field-select .select {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    padding-right: 6px;
+    padding-right: 0.6rem;
+    background-color: #b6b7b7;
+}
+
+.field-wrap {
+    padding: 0;
+    margin-bottom: 2px;
+    display: block;
+}
+
+.link-field {
+    display: inline-block;
+}
+
+.field-plain, .field-select, .field-timeofday, .field-price, .field-unspecified, .field-check, .field-radio, .field-count, .button, .button-icon, .gotoform {
+    -moz-transition: background-color 100ms, opacity 0.3s;
+    -o-transition: background-color 100ms, opacity 0.3s;
+    -webkit-transition: background-color 100ms, opacity 0.3s;
+    transition: background-color 100ms, opacity 0.3s;
+}
+
+.disabled .field-plain, .disabled .field-select, .disabled .field-timeofday, .disabled .field-price, .disabled .field-unspecified, .disabled .field-check, .disabled .field-radio, .disabled .field-count {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+    opacity: 0.2;
+    cursor: default;
+}
+
+.field-price, .field-timeofday, .field-unspecified {
+    width: 90px;
+    width: 9rem;
+    color: white;
+    text-align: center;
+}
+
+.field-timeofday {
+    text-align: center;
+}
+.field-timeofday.day {
+    background-color: #00a4ff;
+}
+.field-timeofday.evening {
+    background-color: #006fb2;
+}
+.field-timeofday.weekend {
+    background-color: #0085d6;
+}
+.field-timeofday.package {
+    background-color: #6B78B4;
+}
+
+.field-unspecified {
+    background-color: #b6b7b7;
+}
+
+.field-plain.summary, .field-price.summary {
+    padding-top: 8px;
+    padding-top: 0.8rem;
+    padding-bottom: 8px;
+    padding-bottom: 0.8rem;
+    line-height: 1.5;
+    height: auto;
+}
+.field-plain.total, .field-price.total {
+    font-weight: 600;
+}
+
+.field-plain {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    padding-left: 16px;
+    padding-left: 1.6rem;
+    padding-right: 16px;
+    padding-right: 1.6rem;
+    background-color: #d1d1d1;
+    color: #1e1f22;
+    text-align: left;
+}
+.field-plain.summary {
+    text-align: right;
+}
+.field-plain.total {
+    text-align: right;
+}
+
+.field-errors {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    display: inline-block;
+    color: white;
+    background-color: #ce3627;
+    max-width: 100%;
+    padding: 8px 16px;
+    padding: 0.8rem 1.6rem;
+}
+.field-errors h3 {
+    margin-top: 0;
+}
+
+.field-price {
+    background-color: #e29c00;
+}
+.field-price.summary {
+    background-color: #b6b7b7;
+}
+.field-price.campaign {
+    background-color: #1dbf21;
+}
+.field-price.fewseats {
+    background-color: #ce3627;
+}
+
+.field-link {
+    width: 37px;
+    width: 3.7rem;
+    height: 37px;
+    height: 3.7rem;
+    background-color: #00a4ff;
+}
+
+.field-count {
+    width: 37px;
+    width: 3.7rem;
+    line-height: 37px;
+    line-height: 3.7rem;
+    background-color: #00a4ff;
+    text-align: center;
+    color: white;
+}
+
+.field-label {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #1e1f22;
+}
+
+.field-dummy {
+    display: none;
+}
+
+.field-check {
+    background-color: #d1d1d1;
+}
+
+.selected .field-check {
+    background-color: #1dbf21;
+}
+
+.field-radio {
+    background-color: #d1d1d1;
+}
+
+.selected .field-radio {
+    background-color: #1dbf21;
+}
+
+.locked .field-check, .locked .field-radio {
+    background-color: #0085d6;
+}
+
+.field-set, .address-fields {
+    background-color: #d1d1d1;
+}
+
+.address-fields {
+    padding: 18px;
+    padding: 1.8rem;
+    margin: 6px 0px 20px 0px;
+    margin: 0.6rem 0rem 2rem 0rem;
+    margin: 0;
+}
+
+.dummy {
+    position: absolute;
+    left: -100px;
+    height: 0;
+    width: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.list, .text-content ul, .text-content ol, .list-oil {
+    margin-left: 20px;
+    margin-left: 2rem;
+    list-style: square;
+}
+
+.list-detail {
+    border-spacing: 0px 10px;
+    border-spacing: 0rem 1rem;
+    border-collapse: separate;
+}
+.list-detail .list-term, .list-detail .list-text {
+    line-height: 20px;
+    line-height: 2rem;
+    padding: 14px 20px;
+    padding: 1.4rem 2rem;
+    color: #1e1f22;
+    vertical-align: top;
+}
+.list-detail .list-term {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-size: 1.4rem;
+    text-align: right;
+    background-color: #f2f2f2;
+}
+.list-detail .list-text {
+    font-size: 14px;
+    font-size: 1.4rem;
+    background-color: #d1d1d1;
+    overflow: hidden;
+}
+
+.listings li {
+    -moz-page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+}
+.listings .field-img {
+    background-position: center;
+    background-size: cover;
+}
+.listings .label-price {
+    width: 110px;
+    width: 11rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5;
+}
+.listings .label-price.hidden {
+    display: none;
+}
+.listings .p-listing {
+    clear: both;
+    white-space: normal;
+}
+.listings .list-letter .label-info, .listings .list-letter .label-guide {
+    width: 10px;
+    width: 1rem;
+    display: inline-block;
+    text-align: center;
+}
+.listings.first .h-listing, .listings.second .h-listing {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+.listings.first .field-plain, .listings.first .field-link, .listings.first .field-img {
+    height: 111px;
+    height: 11.1rem;
+}
+.listings.first .field-img {
+    width: 111px;
+    width: 11.1rem;
+}
+.listings.first .h-listing {
+    margin: 10px 0px 5px 0px;
+    margin: 1rem 0rem 0.5rem 0rem;
+    height: 36.8px;
+    height: 3.68rem;
+    font-weight: 600;
+}
+.listings.first .p-listing {
+    margin-top: 5px;
+    margin-top: 0.5rem;
+    height: 42px;
+    height: 4.2rem;
+    display: block;
+    overflow: hidden;
+}
+.listings.first .list-letter {
+    display: none;
+}
+.listings.second .field-plain, .listings.second .field-link, .listings.second .field-img {
+    height: 74px;
+    height: 7.4rem;
+    line-height: 74px;
+    line-height: 7.4rem;
+}
+.listings.second .field-img {
+    width: 74px;
+    width: 7.4rem;
+}
+.listings.second .list-letter {
+    display: none;
+}
+
+.table, .table-profession {
+    border-collapse: separate;
+}
+.table td, .table-profession td, .table th, .table-profession th {
+    padding: 8px 16px;
+    padding: 0.8rem 1.6rem;
+    vertical-align: text-top;
+}
+
+.table {
+    border-spacing: 0;
+}
+.table tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+.table th {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: #888888;
+    color: white;
+}
+
+.table-profession {
+    background-color: #f2f2f2;
+    border-spacing: 1;
+}
+.table-profession col {
+    background-color: white;
+}
+.table-profession th {
+    font-size: 16px;
+    font-size: 1.6rem;
+    background-color: #f2f2f2;
+}
+.table-profession td {
+    background-color: white;
+}
+
+.table-courses {
+    border-spacing: 0 2px;
+    border-collapse: separate;
+}
+.table-courses .field-select {
+    margin: 0;
+}
+.table-courses .disabled .field-check {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.site-content {
+    -moz-transition: margin 0.3s;
+    -o-transition: margin 0.3s;
+    -webkit-transition: margin 0.3s;
+    transition: margin 0.3s;
+    position: relative;
+    height: auto;
+    min-height: 100%;
+}
+.site-content.open, .site-content.load-open {
+    margin-right: 25%;
+}
+.site-content.open .cart-button, .site-content.load-open .cart-button {
+    margin-right: -138px;
+    margin-right: -13.8rem;
+}
+.site-content.load-open, .site-content.load-open .cart-button {
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.page-header {
+    height: 88px;
+    height: 8.8rem;
+    background: white;
+}
+.page-header .col-last {
+    text-align: center;
+}
+.page-header .page-logo {
+    margin: 16px 0px 0px 20px;
+    margin: 1.6rem 0rem 0rem 2rem;
+    height: 56px;
+    height: 5.6rem;
+    width: 336px;
+    width: 33.6rem;
+    background-size: auto 56px;
+    background-size: auto 5.6rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.page-header .button {
+    display: inline-block;
+    margin-top: 28px;
+    margin-top: 2.8rem;
+    margin-bottom: 28px;
+    margin-bottom: 2.8rem;
+}
+.page-header .cart-button {
+    -moz-transition: margin 0.3s;
+    -o-transition: margin 0.3s;
+    -webkit-transition: margin 0.3s;
+    transition: margin 0.3s;
+    width: 130px;
+    width: 13rem;
+    outline: 0;
+}
+
+.site-cart {
+    -moz-transition: right 0.3s;
+    -o-transition: right 0.3s;
+    -webkit-transition: right 0.3s;
+    transition: right 0.3s;
+    background-color: #404144;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    margin-right: -25%;
+}
+.site-cart.open, .site-cart.load-open {
+    right: 25%;
+    margin-right: -25%;
+}
+.site-cart.load-open {
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+.site-cart .close-button, .site-cart .enroll-button {
+    margin: 28px 10px;
+    margin: 2.8rem 1rem;
+    display: inline-block;
+    background-color: transparent;
+    color: #f2f2f2;
+    outline: 0;
+}
+
+.page-body {
+    color: #1e1f22;
+    background-color: white;
+}
+
+.page-nav {
+    background-color: white;
+}
+.page-nav .button, .page-nav .nav-links {
+    margin-top: 6px;
+    margin-top: 0.6rem;
+    margin-bottom: 6px;
+    margin-bottom: 0.6rem;
+}
+.page-nav .button {
+    width: 90px;
+    width: 9rem;
+    margin-left: 2px;
+    margin-left: 0.2rem;
+    display: block;
+}
+.page-nav .nav-links {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 36px;
+    line-height: 3.6rem;
+}
+
+.page-footer {
+    background-color: #404144;
+    color: #888888;
+}
+.page-footer .page-section {
+    background-size: auto 110px;
+    background-size: auto 11rem;
+    background-position: right 20px center;
+    background-position: right 2rem center;
+    background-repeat: no-repeat;
+}
+.page-footer .h3, .page-footer .text-content h3, .text-content .page-footer h3, .page-footer .p, .page-footer .list, .page-footer .text-content ul, .text-content .page-footer ul, .page-footer .text-content ol, .text-content .page-footer ol, .page-footer .list-oil, .page-footer .table, .page-footer .text-content p, .text-content .page-footer p, .page-footer .text-content table, .text-content .page-footer table, .page-footer .listings .p-listing, .listings .page-footer .p-listing {
+    max-width: 510px;
+    max-width: 51rem;
+}
+.page-footer .link, .page-footer .text-content a[href], .text-content .page-footer a[href] {
+    color: #888888;
+}
+
+.page-lead {
+    background-color: #f2f2f2;
+    color: #1e1f22;
+}
+
+.page-promo {
+    background-color: #009af0;
+}
+
+.page-details {
+    background-color: white;
+}
+.page-details .list-detail {
+    margin: 0;
+}
+
+.page-contact {
+    background-color: #d1d1d1;
+}
+
+.contact-page .contact-form {
+    margin: 20px;
+    margin: 2rem;
+}
+.contact-page .field-set, .contact-page .address-fields {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.contact-form .field-set, .contact-form .address-fields {
+    margin: 0;
+}
+.contact-form .field-text, .contact-form .field-textarea, .contact-form .field-button, .contact-form .submit-form, .contact-form .complete-form {
+    margin-left: 0px;
+    margin-left: 0rem;
+    margin-right: 0px;
+    margin-right: 0rem;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+.contact-form .field-text, .contact-form .field-button, .contact-form .submit-form, .contact-form .complete-form {
+    height: 37px;
+    height: 3.7rem;
+}
+.contact-form .field-textarea {
+    height: 100px;
+    height: 10rem;
+    margin-top: 0px;
+    margin-top: 0rem;
+}
+.contact-form .zendesk-submit {
+    margin-left: 10px;
+    margin-left: 1rem;
+}
+.contact-form .field-errors {
+    margin-bottom: 6px;
+    margin-bottom: 0.6rem;
+}
+.contact-form .h3, .contact-form .text-content h3, .text-content .contact-form h3 {
+    margin-top: 0;
+}
+
+.contact-info {
+    margin: 2px 0px;
+    margin: 0.2rem 0rem;
+}
+.contact-info .icon {
+    margin-right: 26px;
+    margin-right: 2.6rem;
+    width: 60px;
+    width: 6rem;
+    height: 60px;
+    height: 6rem;
+    background-color: #0085d6;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contact-info .contact-email .h3-contact {
+    line-height: 60px;
+    line-height: 6rem;
+}
+
+.promo-image {
+    width: 100px;
+    width: 10rem;
+    height: 100px;
+    height: 10rem;
+    margin: 0px 20px 0px 0px;
+    margin: 0rem 2rem 0rem 0rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.promo-text {
+    height: 108px;
+    height: 10.8rem;
+}
+.promo-text .h2, .promo-text .text-content h2, .text-content .promo-text h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.promo-text .h2, .promo-text .text-content h2, .text-content .promo-text h2, .promo-text .p-lead, .promo-text .text-content .lead, .text-content .promo-text .lead {
+    margin: 0px 10px 0px 0px;
+    margin: 0rem 1rem 0rem 0rem;
+    color: white;
+}
+
+.front-page .main-divided {
+    display: none;
+}
+.front-page .main-centered {
+    overflow: hidden;
+    position: relative;
+    /*.link-gsk, .link-stcw {
+      height: 35.4rem;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+    }
+    .link-gsk {
+      @include background-img('image-front-gsk');
+    }
+    .link-stcw {
+      @include background-img('image-front-stcw');
+    }
+    */
+}
+.front-page .main-centered .h1-front-box {
+    position: absolute;
+    top: 5.5rem;
+    width: 100%;
+    text-align: center;
+}
+.front-page .main-centered .h1-frontsub {
+    white-space: nowrap;
+}
+.front-page .main-centered .link-guide {
+    text-align: center;
+    color: white;
+    background-color: #1e1f22;
+    clear: both;
+}
+.front-page .main-centered .link-frontimage {
+    height: 35.4rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-front.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .front-page .main-centered .link-frontimage {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-front-high.jpg');
+    }
+}
+.front-page .label-offshore {
+    background-color: #0085d6;
+}
+.front-page .page-lead {
+    background-color: #404144;
+}
+.front-page .page-lead .page-section {
+    background-color: #1e1f22;
+    -moz-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
+    -webkit-transition: background-color 100ms;
+    transition: background-color 100ms;
+}
+.front-page .page-lead .page-section:hover {
+    background-color: #141517;
+}
+.front-page .page-lead .page-section:active {
+    background-color: #0b0b0c;
+}
+.front-page .page-lead .h2, .front-page .page-lead .text-content h2, .text-content .front-page .page-lead h2 {
+    line-height: 0.8;
+    font-weight: 600;
+}
+.front-page .page-lead .p-lead, .front-page .page-lead .text-content .lead, .text-content .front-page .page-lead .lead {
+    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
+    color: white;
+}
+.front-page .page-lead .front-image, .front-page .page-lead .front-text {
+    height: 400px;
+    height: 40rem;
+}
+.front-page .page-lead .front-image {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .front-page .page-lead .front-image {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/image-page6-high.jpg');
+    }
+}
+
+.info-box {
+    background-color: #0085d6;
+    color: white;
+}
+.info-box .link, .info-box .text-content a[href], .text-content .info-box a[href] {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+.info-box .text-content {
+    margin: 40px 60px;
+    margin: 4rem 6rem;
+}
+
+.lead-text {
+    white-space: normal;
+}
+.lead-text .h2, .lead-text .text-content h2, .text-content .lead-text h2 {
+    margin-top: 0;
+}
+.lead-text .p-lead, .lead-text .text-content .lead, .text-content .lead-text .lead {
+    margin-bottom: 0;
+}
+
+.lead-image {
+    height: 300px;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    text-align: center;
+}
+
+.course-page .calendar-top {
+    background: #1dbf21;
+    padding: 12px 0px 16px 0px;
+    padding: 1.2rem 0rem 1.6rem 0rem;
+}
+.course-page .calendar-top .h2, .course-page .calendar-top .text-content h2, .text-content .course-page .calendar-top h2, .course-page .calendar-top .p, .course-page .calendar-top .list, .course-page .calendar-top .text-content ul, .text-content .course-page .calendar-top ul, .course-page .calendar-top .text-content ol, .text-content .course-page .calendar-top ol, .course-page .calendar-top .list-oil, .course-page .calendar-top .table, .course-page .calendar-top .text-content p, .text-content .course-page .calendar-top p, .course-page .calendar-top .text-content table, .text-content .course-page .calendar-top table, .course-page .calendar-top .listings .p-listing, .listings .course-page .calendar-top .p-listing {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.course-page .course-info .h3, .course-page .course-info .text-content h3, .text-content .course-page .course-info h3 {
+    margin-top: 0;
+}
+.course-page .course-info p {
+    margin-bottom: 0;
+}
+.course-page .course-info .icon {
+    margin: 0px 24px 0px 0px;
+    margin: 0rem 2.4rem 0rem 0rem;
+    width: 60px;
+    width: 6rem;
+    height: 60px;
+    height: 6rem;
+    background-color: #0085d6;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+.course-page .course-locations, .course-page .course-times, .course-page .course-prerequisites, .course-page .course-related, .course-page .course-hotel {
+    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
+}
+.course-page .calendar-location, .course-page .calendar-month {
+    margin-top: 16px;
+    margin-top: 1.6rem;
+    color: #1e1f22;
+}
+.course-page .calendar-month {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    float: left;
+}
+.course-page .calendar-location {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: right;
+    line-height: 2;
+}
+.course-page .calendar-nocourse {
+    color: #888888;
+    text-align: center;
+}
+.course-page .hotels-link {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin-left: 80px;
+    margin-left: 8rem;
+    font-weight: 400;
+}
+.course-page .alt-map {
+    height: 66px;
+    height: 6.6rem;
+    width: 100px;
+    width: 10rem;
+    margin: 10px 10px 10px 0px;
+    margin: 1rem 1rem 1rem 0rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.calendar-dates .field-timeofday {
+    width: 60px;
+    width: 6rem;
+}
+.calendar-dates .field-button, .calendar-dates .submit-form, .calendar-dates .complete-form {
+    margin-top: 20px;
+    margin-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.enroll-steps .button {
+    width: 200px;
+    width: 20rem;
+}
+.enroll-steps .field-check {
+    background-image: none;
+}
+
+.enroll-errors {
+    margin: 4px 0px 6px 0px;
+    margin: 0.4rem 0rem 0.6rem 0rem;
+}
+
+.enroll-info {
+    width: 800px;
+    width: 80rem;
+}
+
+.enroll-student {
+    height: 366px;
+    height: 36.6rem;
+    margin: 0px 20px 20px 0px;
+    margin: 0rem 2rem 2rem 0rem;
+    overflow: hidden;
+}
+.enroll-student .address-fields {
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+.enroll-student .field-check {
+    height: 100%;
+}
+.enroll-student.disabled .address-fields {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+    opacity: 0.2;
+}
+.enroll-student.disabled .field-check {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.enroll-payer, .enroll-paymethod {
+    width: 800px;
+    width: 80rem;
+}
+.enroll-payer .h3, .enroll-payer .text-content h3, .text-content .enroll-payer h3, .enroll-paymethod .h3, .enroll-paymethod .text-content h3, .text-content .enroll-paymethod h3 {
+    margin-top: 0;
+}
+
+.calendar-dates {
+    padding: 6px 20px 20px;
+    padding: 0.6rem 2rem 2rem;
+    background-color: #f2f2f2;
+}
+.calendar-dates .field-wrap {
+    width: 100%;
+}
+
+.cart-header {
+    font-size: 16px;
+    font-size: 1.6rem;
+    height: 88px;
+    height: 8.8rem;
+    color: white;
+    background-color: #404144;
+    white-space: nowrap;
+}
+
+.cart-header-left, .cart-header-right {
+    width: 50%;
+    display: inline-block;
+}
+
+.cart-header-left {
+    text-align: left;
+}
+
+.cart-header-right {
+    text-align: right;
+}
+
+.cart-content a {
+    display: block;
+}
+.cart-content .specified .field-plain, .cart-content .specified .field-check {
+    padding-top: 16px;
+    padding-top: 1.6rem;
+    height: 58px;
+    height: 5.8rem;
+    padding-bottom: 0;
+    line-height: 1.5;
+}
+.cart-content .cart-summary {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.cart-content .gotoform {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 74px;
+    line-height: 7.4rem;
+    padding: 0px 20px;
+    padding: 0rem 2rem;
+    background-color: #00a4ff;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 64%;
+    color: white;
+    font-weight: 400;
+}
+.cart-content .gotoform:hover {
+    background-color: #0097eb;
+}
+.cart-content .gotoform:active {
+    background-color: #008ad6;
+}
+
+.listings-page #searchbox {
+    margin-top: 0.8rem;
+    margin-right: 0;
+    border: 2px solid #1dbf21;
+}
+
+.listings-filter {
+    padding: 0px 0px 20px 0px;
+    padding: 0rem 0rem 2rem 0rem;
+    min-width: 280px;
+    min-width: 28rem;
+    background-color: #404144;
+    overflow: hidden;
+}
+.listings-filter .h3, .listings-filter .text-content h3, .text-content .listings-filter h3 {
+    color: white;
+    margin: 12px 37px 8px 57px;
+    margin: 1.2rem 3.7rem 0.8rem 5.7rem;
+}
+
+.sidebar {
+    padding: 10px 0px 20px 0px;
+    padding: 1rem 0rem 2rem 0rem;
+    background-color: #404144;
+}
+.sidebar .h3, .sidebar .text-content h3, .text-content .sidebar h3 {
+    margin: 12px 20px 8px 20px;
+    margin: 1.2rem 2rem 0.8rem 2rem;
+    color: white;
+}
+
+.help-page {
+    background-color: #f2f2f2;
+}
+
+.menu-group {
+    padding: 10px 20px;
+    padding: 1rem 2rem;
+}
+
+.listings-content {
+    margin-left: 20%;
+}
+
+.courses-listings .field-count {
+    background-color: #eda426;
+}
+
+.course-promo .field-plain {
+    height: auto;
+}
+
+.professions-listings .field-count {
+    background-color: #6B78B4;
+}
+
+.blank-page {
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+#cresco-application {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.wufoo-form-container {
+    margin: 50px 0px;
+    margin: 5rem 0rem;
+    padding-top: 50px;
+    padding-top: 5rem;
+    padding-bottom: 50px;
+    padding-bottom: 5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90% !important;
+    border: none;
+    display: block;
+    background-color: #FFF;
+}
+
+#page-40 .text-content .table {
+    width: 100%;
+}
+
+#page-1213 .lead-image {
+    background-position: center;
+    background-size: 80%;
+}
+#page-1213 .info-box {
+    background-color: transparent;
+    cursor: pointer;
+}
+#page-1213 .info-box .text-content {
+    margin: 0;
+}
+#page-1213 .swe-plain {
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #fecc00;
+    background-color: #006aa7;
+}
+#page-1213 .swe-price {
+    background-color: #fecc00;
+    color: #006aa7;
+}
+#page-1213 .button .swe-plain {
+    background-color: #006aa7;
+}
+#page-1213 .button:hover .swe-plain {
+    background-color: #005d93;
+}
+#page-1213 .button:active .swe-plain {
+    background-color: #00507e;
+}
+#page-1213 .button .swe-price {
+    background-color: #fecc00;
+}
+#page-1213 .button:hover .swe-price {
+    background-color: #eabc00;
+}
+#page-1213 .button:active .swe-price {
+    background-color: #d5ab00;
+}
+
+.h1-oil {
+    font-size: 80px;
+    font-size: 8rem;
+    font-weight: 800;
+    color: white;
+    line-height: 1.2;
+    display: inline-block;
+    text-align: left;
+}
+
+.h1-oilsub {
+    font-size: 22px;
+    font-size: 2.2rem;
+    width: 230px;
+    width: 23rem;
+    background-color: #d86c14;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1.4;
+}
+
+.h2-oil {
+    font-size: 24px;
+    font-size: 2.4rem;
+    margin: 20px 0px;
+    margin: 2rem 0rem;
+    font-weight: 800;
+    color: #1e1f22;
+    line-height: 1.2;
+}
+
+.h3-oil {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #1e1f22;
+    line-height: 1.2;
+}
+
+.p-oil, .list-oil {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin: 5px 0px 20px 0px;
+    margin: 0.5rem 0rem 2rem 0rem;
+    color: #1e1f22;
+    line-height: 1.8;
+}
+
+.oil-quote, .oil-fact {
+    margin: 20px 0px;
+    margin: 2rem 0rem;
+    color: white;
+    overflow: hidden;
+}
+
+.oil-quote {
+    background-color: #404144;
+}
+.oil-quote .p-source {
+    text-align: right;
+}
+
+.oil-fact {
+    background-color: #0085d6;
+}
+
+.oil-banner a.row {
+    background-position: 0px -135px;
+    background-position: 0rem -13.5rem;
+    height: 120px;
+    height: 12rem;
+    background-size: cover;
+    border: none;
+}
+.oil-banner .h2-banner, .oil-banner .h2-bannersub {
+    margin: 0px 125px;
+    margin: 0rem 12.5rem;
+    color: white;
+}
+.oil-banner .h2-banner {
+    font-size: 28px;
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+.oil-banner .h2-bannersub {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.h1-finance {
+    font-size: 70px;
+    font-size: 7rem;
+    font-weight: 800;
+    color: white;
+    line-height: 1;
+    text-align: center;
+}
+
+.financesub-box {
+    width: 280px;
+    width: 28rem;
+    background-color: #d86c14;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+}
+.financesub-box:hover {
+    background-color: #c56312;
+}
+.financesub-box:active {
+    background-color: #b35911;
+}
+.financesub-box + .financesub-box {
+    margin-left: 17px;
+    margin-left: 1.7rem;
+}
+
+.h1-financesub {
+    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.finance-info {
+    width: 363px;
+    width: 36.3rem;
+}
+.finance-info .finance-interest, .finance-info .finance-fee, .finance-info .finance-duration {
+    margin-bottom: 103px;
+    margin-bottom: 10.3rem;
+}
+
+.finance-interest, .finance-fee, .finance-duration {
+    color: white;
+    text-align: center;
+}
+.finance-interest h3, .finance-fee h3, .finance-duration h3 {
+    font-size: 10px;
+    font-size: 1rem;
+    line-height: 20px;
+    line-height: 2rem;
+}
+.finance-interest p, .finance-fee p, .finance-duration p {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 48px;
+    line-height: 4.8rem;
+}
+.finance-interest span, .finance-fee span, .finance-duration span {
+    font-size: 30px;
+    font-size: 3rem;
+}
+
+.finance-interest h3 {
+    background-color: #404144;
+}
+.finance-interest p {
+    background-color: #1e1f22;
+}
+
+.finance-fee h3 {
+    background-color: #1dbf21;
+}
+.finance-fee p {
+    background-color: #1aad1e;
+}
+
+.finance-duration h3 {
+    background-color: #6B78B4;
+}
+.finance-duration p {
+    background-color: #5d6cad;
+}
+
+#page-1244 .lead-image {
+    width: 100%;
+    padding: 60% 0 0 0;
+    position: relative;
+    height: 0;
+    background-position: center;
+}
+#page-1244 .stretch-box {
+    padding-top: 10%;
+}
+#page-1244 .oil-development {
+    background-color: #f2f2f2;
+}
+#page-1244 .oil-development .page-section {
+    background-position: right 40px top 0px;
+    background-position: right 4rem top 0rem;
+    background-size: 580px;
+    background-size: 58rem;
+    background-repeat: no-repeat;
+}
+#page-1244 .oil-development .h2-oil, #page-1244 .oil-development .p-oil, #page-1244 .oil-development .list-oil {
+    width: 340px;
+    width: 34rem;
+}
+#page-1244 .oil-development .oil-quote {
+    width: 532px;
+    width: 53.2rem;
+    margin-top: 280px;
+    margin-top: 28rem;
+    margin-bottom: 80px;
+    margin-bottom: 8rem;
+    float: right;
+}
+#page-1244 .oil-workers {
+    background-color: #d1d1d1;
+}
+#page-1244 .oil-workers .page-section {
+    background-position: right 40px center;
+    background-position: right 4rem center;
+    background-size: 540px;
+    background-size: 54rem;
+    background-repeat: no-repeat;
+}
+#page-1244 .oil-workers .h2-oil, #page-1244 .oil-workers .p-oil, #page-1244 .oil-workers .list-oil, #page-1244 .oil-workers .oil-quote {
+    width: 360px;
+    width: 36rem;
+}
+#page-1244 .oil-investments {
+    background-color: #f2f2f2;
+}
+#page-1244 .oil-investments .page-section {
+    background-position: right -1px bottom -1px;
+    background-position: right -0.1rem bottom -0.1rem;
+    background-size: 570px;
+    background-size: 57rem;
+    position: relative;
+    background-repeat: no-repeat;
+}
+#page-1244 .oil-investments .h2-oil, #page-1244 .oil-investments .p-oil, #page-1244 .oil-investments .list-oil, #page-1244 .oil-investments .oil-quote {
+    width: 390px;
+    width: 39rem;
+}
+#page-1244 .oil-investments .oil-fact {
+    position: absolute;
+}
+#page-1244 .oil-investments .fact1 {
+    width: 270px;
+    width: 27rem;
+    right: 180px;
+    right: 18rem;
+    bottom: 617px;
+    bottom: 61.7rem;
+}
+#page-1244 .oil-investments .fact2 {
+    width: 340px;
+    width: 34rem;
+    right: 160px;
+    right: 16rem;
+    bottom: 75px;
+    bottom: 7.5rem;
+}
+#page-1244 .oil-future {
+    background-color: #d1d1d1;
+}
+#page-1244 .oil-future .page-section {
+    background-position: right center;
+    background-position: right center;
+    background-size: 560px;
+    background-size: 56rem;
+    background-repeat: no-repeat;
+}
+#page-1244 .oil-future .h2-oil, #page-1244 .oil-future .p-oil, #page-1244 .oil-future .list-oil, #page-1244 .oil-future .oil-quote {
+    width: 380px;
+    width: 38rem;
+}
+#page-1244 .oil-sources {
+    background-color: #f2f2f2;
+}
+#page-1244 .oil-heading {
+    background-color: #d86c14;
+}
+
+#page-1662 .h1-booking {
+    font-size: 74px;
+    font-size: 7.4rem;
+    margin-bottom: 140px;
+    margin-bottom: 14rem;
+    font-weight: 800;
+    line-height: 1.4;
+    display: inline-block;
+    text-align: left;
+}
+#page-1662 .h2-booking {
+    font-size: 34px;
+    font-size: 3.4rem;
+    margin: 20px 0px;
+    margin: 2rem 0rem;
+    font-weight: 800;
+    color: #1e1f22;
+    line-height: 0.4;
+}
+#page-1662 .h3-booking {
+    font-size: 34px;
+    font-size: 3.4rem;
+    margin-bottom: 80px;
+    margin-bottom: 8rem;
+    font-weight: 400;
+    color: #1e1f22;
+    line-height: 1.2;
+}
+#page-1662 .booking-header {
+    background-color: #f2f2f2;
+}
+#page-1662 .booking-header .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/booking-header.png');
+    background-position: right top 230px;
+    background-position: right top 23rem;
+    background-size: 480px;
+    background-size: 48rem;
+    background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1662 .booking-header .page-section {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/booking-header-high.png');
+    }
+}
+#page-1662 .booking-header .h2-oil, #page-1662 .booking-header .p-oil, #page-1662 .booking-header .list-oil {
+    width: 380px;
+    width: 38rem;
+}
+#page-1662 .booking-header .complete-form {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 2;
+}
+#page-1662 .booking-header .label-heading, #page-1662 .booking-header .label-pos {
+    padding-left: 26px !important;
+    padding-left: 2.6rem !important;
+    padding-right: 26px !important;
+    padding-right: 2.6rem !important;
+    display: inline-block;
+    white-space: nowrap;
+}
+#page-1662 .booking-communication {
+    background-color: #d1d1d1;
+}
+#page-1662 .booking-communication .page-section {
+    background-position: right 20% top 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#page-1662 .booking-communication .h2-oil, #page-1662 .booking-communication .p-oil, #page-1662 .booking-communication .list-oil {
+    width: 460px;
+    width: 46rem;
+}
+#page-1662 .booking-overview {
+    background-color: #f2f2f2;
+}
+#page-1662 .booking-overview .page-section {
+    background-position: right 8% top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#page-1662 .booking-overview .h2-oil, #page-1662 .booking-overview .p-oil, #page-1662 .booking-overview .list-oil {
+    width: 460px;
+    width: 46rem;
+}
+#page-1662 .booking-employees {
+    background-color: #d1d1d1;
+}
+#page-1662 .booking-employees .page-section {
+    background-position: right -1px bottom -31px;
+    background-position: right -0.1rem bottom -3.1rem;
+    background-size: 454px;
+    background-size: 45.4rem;
+    position: relative;
+    background-repeat: no-repeat;
+}
+#page-1662 .booking-employees .h2-oil, #page-1662 .booking-employees .p-oil, #page-1662 .booking-employees .list-oil {
+    width: 466px;
+    width: 46.6rem;
+}
+#page-1662 .booking-free {
+    background-color: #f2f2f2;
+}
+#page-1662 .booking-free .page-section {
+    background-image: url('/wp-content/themes/offshoreutdanning/assets/images/booking-free.jpg');
+    background-position: right top;
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    #page-1662 .booking-free .page-section {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/booking-free-high.jpg');
+    }
+}
+#page-1662 .booking-free .h2-oil, #page-1662 .booking-free .p-oil, #page-1662 .booking-free .list-oil {
+    width: 430px;
+    width: 43rem;
+}
+
+#page-1599 .h2-oil {
+    font-size: 30px;
+    font-size: 3rem;
+}
+#page-1599 .finance-heading {
+    background-color: #d86c14;
+}
+#page-1599 .finance-heading .page-section {
+    background-color: #a54d20;
+}
+#page-1599 .finance-deferral {
+    background-color: #f2f2f2;
+}
+#page-1599 .finance-deferral .page-section {
+    background-position: right 190px top 53px;
+    background-position: right 19rem top 5.3rem;
+    background-size: 270px;
+    background-size: 27rem;
+    background-repeat: no-repeat;
+}
+#page-1599 .finance-deferral .h2-oil, #page-1599 .finance-deferral .p-oil, #page-1599 .finance-deferral .list-oil {
+    width: 420px;
+    width: 42rem;
+}
+#page-1599 .finance-deferral .finance-info {
+    margin-top: 290px;
+    margin-top: 29rem;
+    margin-right: 103px;
+    margin-right: 10.3rem;
+    float: right;
+}
+#page-1599 .finance-installment {
+    background-color: #d1d1d1;
+}
+#page-1599 .finance-installment .page-section {
+    background-position: right 143px top 53px;
+    background-position: right 14.3rem top 5.3rem;
+    background-size: 364px;
+    background-size: 36.4rem;
+    background-repeat: no-repeat;
+}
+#page-1599 .finance-installment .h2-oil, #page-1599 .finance-installment .p-oil, #page-1599 .finance-installment .list-oil {
+    width: 420px;
+    width: 42rem;
+}
+#page-1599 .finance-installment .finance-info {
+    margin-top: 290px;
+    margin-top: 29rem;
+    margin-right: 103px;
+    margin-right: 10.3rem;
+    float: right;
+}
+#page-1599 .finance-loanfund {
+    background-color: #f2f2f2;
+}
+#page-1599 .finance-loanfund .page-section {
+    background-position: right 240px top;
+    background-position: right 24rem top;
+    background-size: 185px;
+    background-size: 18.5rem;
+    background-repeat: no-repeat;
+}
+#page-1599 .finance-loanfund .h2-oil, #page-1599 .finance-loanfund .p-oil, #page-1599 .finance-loanfund .list-oil {
+    width: 420px;
+    width: 42rem;
+}
+#page-1599 .finance-loanfund .finance-info {
+    margin-top: 252px;
+    margin-top: 25.2rem;
+    margin-right: 103px;
+    margin-right: 10.3rem;
+    float: right;
+}
+
+#page-1245 .p-lead, #page-1245 .text-content .lead, .text-content #page-1245 .lead, #page-1246 .p-lead, #page-1246 .text-content .lead, .text-content #page-1246 .lead {
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+#page-1245 .page-section, #page-1246 .page-section {
+    vertical-align: top;
+}
+#page-1245 .lead-text, #page-1245 .lead-image, #page-1246 .lead-text, #page-1246 .lead-image {
+    display: inline-block;
+    vertical-align: top;
+}
+#page-1245 .lead-text .button, #page-1246 .lead-text .button {
+    display: inline-block;
+}
+#page-1245 .oil-fact, #page-1246 .oil-fact {
+    white-space: normal;
+}
+
+#page-1245 .page-lead .oil-fact {
+    margin-top: 530px;
+    margin-top: 53rem;
+}
+#page-1245 .oil-logo {
+    height: 70px;
+    height: 7rem;
+    background-size: 260px;
+    background-size: 26rem;
+    background-repeat: no-repeat;
+}
+#page-1245 .lead-image {
+    height: 538px;
+    height: 53.8rem;
+    background-size: contain;
+}
+#page-1245 .oil-text {
+    background-color: #d1d1d1;
+}
+
+#page-1246 .page-lead .oil-fact {
+    margin-top: 280px;
+    margin-top: 28rem;
+}
+#page-1246 .lead-image {
+    height: 283px;
+    height: 28.3rem;
+    background-size: contain;
+    white-space: normal;
+}
+#page-1246 .oil-logo {
+    height: 110px;
+    height: 11rem;
+    background-size: 260px;
+    background-size: 26rem;
+    background-repeat: no-repeat;
+}
+
+html {
+    font-size: 10px;
+}
+
+.page-section {
+    max-width: 1060px;
+    max-width: 106rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 740px) {
+    .ptn, .pvn, .pan {
+        padding-top: 0px !important;
+        padding-top: 0rem !important;
+    }
+
+    .ptt, .pvt, .pat {
+        padding-top: 6px;
+        padding-top: 0.6rem;
+    }
+
+    .pts, .pvs, .pas {
+        padding-top: 12px;
+        padding-top: 1.2rem;
+    }
+
+    .ptm, .pvm, .pam {
+        padding-top: 24px;
+        padding-top: 2.4rem;
+    }
+
+    .ptl, .pvl, .pal {
+        padding-top: 36px;
+        padding-top: 3.6rem;
+    }
+
+    .pth, .pvh, .pah {
+        padding-top: 48px;
+        padding-top: 4.8rem;
+    }
+
+    .prn, .phn, .pan {
+        padding-right: 0px !important;
+        padding-right: 0rem !important;
+    }
+
+    .prt, .pht, .pat {
+        padding-right: 6px;
+        padding-right: 0.6rem;
+    }
+
+    .prs, .phs, .pas {
+        padding-right: 12px;
+        padding-right: 1.2rem;
+    }
+
+    .prm, .phm, .pam {
+        padding-right: 24px;
+        padding-right: 2.4rem;
+    }
+
+    .prl, .phl, .pal {
+        padding-right: 36px;
+        padding-right: 3.6rem;
+    }
+
+    .prh, .phh, .pah {
+        padding-right: 48px;
+        padding-right: 4.8rem;
+    }
+
+    .pbn, .pvn, .pan {
+        padding-bottom: 0px !important;
+        padding-bottom: 0rem !important;
+    }
+
+    .pbt, .pvt, .pat {
+        padding-bottom: 6px;
+        padding-bottom: 0.6rem;
+    }
+
+    .pbs, .pvs, .pas {
+        padding-bottom: 12px;
+        padding-bottom: 1.2rem;
+    }
+
+    .pbm, .pvm, .pam {
+        padding-bottom: 24px;
+        padding-bottom: 2.4rem;
+    }
+
+    .pbl, .pvl, .pal {
+        padding-bottom: 36px;
+        padding-bottom: 3.6rem;
+    }
+
+    .pbh, .pvh, .pah {
+        padding-bottom: 48px;
+        padding-bottom: 4.8rem;
+    }
+
+    .pln, .phn, .pan {
+        padding-left: 0px !important;
+        padding-left: 0rem !important;
+    }
+
+    .plt, .pht, .pat {
+        padding-left: 6px;
+        padding-left: 0.6rem;
+    }
+
+    .pls, .phs, .pas {
+        padding-left: 12px;
+        padding-left: 1.2rem;
+    }
+
+    .plm, .phm, .pam {
+        padding-left: 24px;
+        padding-left: 2.4rem;
+    }
+
+    .pll, .phl, .pal {
+        padding-left: 36px;
+        padding-left: 3.6rem;
+    }
+
+    .plh, .phh, .pah {
+        padding-left: 48px;
+        padding-left: 4.8rem;
+    }
+
+    .mtn, .mvn, .man {
+        margin-top: 0px !important;
+        margin-top: 0rem !important;
+    }
+
+    .mtt, .mvt, .mat {
+        margin-top: 6px;
+        margin-top: 0.6rem;
+    }
+
+    .mts, .mvs, .mas {
+        margin-top: 12px;
+        margin-top: 1.2rem;
+    }
+
+    .mtm, .mvm, .mam {
+        margin-top: 24px;
+        margin-top: 2.4rem;
+    }
+
+    .mtl, .mvl, .mal {
+        margin-top: 36px;
+        margin-top: 3.6rem;
+    }
+
+    .mth, .mvh, .mah {
+        margin-top: 48px;
+        margin-top: 4.8rem;
+    }
+
+    .mrn, .mhn, .man {
+        margin-right: 0px !important;
+        margin-right: 0rem !important;
+    }
+
+    .mrt, .mht, .mat {
+        margin-right: 6px;
+        margin-right: 0.6rem;
+    }
+
+    .mrs, .mhs, .mas {
+        margin-right: 12px;
+        margin-right: 1.2rem;
+    }
+
+    .mrm, .mhm, .mam {
+        margin-right: 24px;
+        margin-right: 2.4rem;
+    }
+
+    .mrl, .mhl, .mal {
+        margin-right: 36px;
+        margin-right: 3.6rem;
+    }
+
+    .mrh, .mhh, .mah {
+        margin-right: 48px;
+        margin-right: 4.8rem;
+    }
+
+    .mbn, .mvn, .man {
+        margin-bottom: 0px !important;
+        margin-bottom: 0rem !important;
+    }
+
+    .mbt, .mvt, .mat {
+        margin-bottom: 6px;
+        margin-bottom: 0.6rem;
+    }
+
+    .mbs, .mvs, .mas {
+        margin-bottom: 12px;
+        margin-bottom: 1.2rem;
+    }
+
+    .mbm, .mvm, .mam {
+        margin-bottom: 24px;
+        margin-bottom: 2.4rem;
+    }
+
+    .mbl, .mvl, .mal {
+        margin-bottom: 36px;
+        margin-bottom: 3.6rem;
+    }
+
+    .mbh, .mvh, .mah {
+        margin-bottom: 48px;
+        margin-bottom: 4.8rem;
+    }
+
+    .mln, .mhn, .man {
+        margin-left: 0px !important;
+        margin-left: 0rem !important;
+    }
+
+    .mlt, .mht, .mat {
+        margin-left: 6px;
+        margin-left: 0.6rem;
+    }
+
+    .mls, .mhs, .mas {
+        margin-left: 12px;
+        margin-left: 1.2rem;
+    }
+
+    .mlm, .mhm, .mam {
+        margin-left: 24px;
+        margin-left: 2.4rem;
+    }
+
+    .mll, .mhl, .mal {
+        margin-left: 36px;
+        margin-left: 3.6rem;
+    }
+
+    .mlh, .mhh, .mah {
+        margin-left: 48px;
+        margin-left: 4.8rem;
+    }
+
+    html {
+        font-size: 8.8px;
+    }
+
+    .span1of1, .span1of6, .span5of6, .span1of5, .span2of5, .span3of5, .span4of5, .span1of4, .span3of4, .span1of3, .span2of3, .span1of2, .page-section, .site-content {
+        width: 100%;
+    }
+
+    .site-cart {
+        margin-right: -100%;
+    }
+    .site-cart.open, .site-cart.load-open {
+        right: 100%;
+        margin-right: -100%;
+    }
+    .site-cart .cart-header-right {
+        display: none;
+    }
+
+    .site-content.open .cart-button, .site-content.load-open .cart-button {
+        margin-right: 0;
+    }
+    .site-content.load-open, .site-content.load-open .cart-button {
+        -moz-transition: none;
+        -o-transition: none;
+        -webkit-transition: none;
+        transition: none;
+    }
+
+    .page-logo {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/ideogram-offshoreutdanning.svg');
+    }
+
+    .mdrn-no-svg .page-logo {
+        background-image: url('/wp-content/themes/offshoreutdanning/assets/images/ideogram-offshoreutdanning.png');
+    }
+
+    .page-header .page-logo {
+        width: 56px;
+        width: 5.6rem;
+    }
+    .page-header .drilling-button, .page-header .safety-button, .page-header .crane-button {
+        display: none;
+    }
+
+    .contact-info {
+        margin-top: 24px;
+        margin-top: 2.4rem;
+    }
+
+    .page-nav .row {
+        display: inline-block;
+    }
+    .page-nav .col-last {
+        display: none;
+    }
+
+    .page-footer .page-section {
+        background-image: none;
+    }
+
+    .field-text, .field-textarea, .field-button, .submit-form, .complete-form {
+        margin-left: 0px;
+        margin-left: 0rem;
+        margin-right: 0px;
+        margin-right: 0rem;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .field-text, .field-button, .submit-form, .complete-form {
+        height: 37px;
+        height: 3.7rem;
+    }
+
+    .lead-text > .mrm {
+        margin: 0;
+    }
+
+    .h1-subtext, .text-content .h1-subtext {
+        line-height: 1.3;
+    }
+
+    .text-content img {
+        border-width: 20px;
+        border-width: 2rem;
+    }
+    .text-content .a[href], .text-content a[href], .text-content .link {
+        white-space: normal;
+    }
+
+    .front-page .page-lead .front-image {
+        background-position: center top;
+    }
+    .front-page .page-lead .front-image, .front-page .page-lead .front-text {
+        height: auto;
+    }
+    .front-page .main-centered .h1-front {
+        width: 350px;
+        width: 35rem;
+    }
+
+    .promo-image {
+        width: 70px;
+        width: 7rem;
+        margin-top: 6px;
+        margin-top: 0.6rem;
+    }
+
+    .listings-page #searchbox {
+        margin-bottom: 1.6rem;
+        width: 100%;
+    }
+    .listings-page .page-title .col, .listings-page .page-title .col-right {
+        float: none;
+    }
+    .listings-page .info-box {
+        display: none;
+    }
+    .listings-page .listings-filter {
+        display: none;
+    }
+    .listings-page .course-promos .mrt, .listings-page .course-promos .mlt {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .listings-page .course-link .field-img {
+        display: none;
+    }
+    .listings-page .listings:not(.first) .label-price {
+        display: none;
+    }
+    .listings-page .help-listings .field-wrap {
+        margin-right: 0;
+    }
+
+    .course-page .lead-image {
+        display: none;
+    }
+    .course-page .calendar-col {
+        float: none;
+        width: auto;
+        margin: 0px -12px 0px -12px;
+        margin: 0rem -1.2rem 0rem -1.2rem;
+    }
+    .course-page .calendar-col .mvl {
+        margin: 0;
+    }
+    .course-page .list-detail td {
+        display: block;
+    }
+    .course-page .text-content {
+        margin-right: 0;
+    }
+    .course-page .oil-banner {
+        display: none;
+    }
+    .course-page .list-term {
+        text-align: left;
+    }
+
+    .text-page .info-col {
+        overflow: visible;
+        float: none;
+    }
+    .text-page .info-box {
+        width: auto;
+        margin: 0px -12px;
+        margin: 0rem -1.2rem;
+    }
+    .text-page .info-box .text-content {
+        margin: 24px 36px;
+        margin: 2.4rem 3.6rem;
+    }
+    .text-page .body-text {
+        margin-right: 0;
+    }
+    .text-page .table-profession {
+        display: none;
+    }
+
+    .enroll-page .enroll-steps .button {
+        width: 50%;
+    }
+    .enroll-page .form:not(.summary) .table-courses {
+        width: 100%;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody {
+        margin-left: 37px;
+        margin-left: 3.7rem;
+        display: block;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody tr:first-of-type {
+        display: none;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody td {
+        display: block;
+        float: left;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody td:first-of-type {
+        margin-left: -37px;
+        margin-left: -3.7rem;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody td:nth-of-type(2) {
+        width: 100%;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody td:nth-of-type(3), .enroll-page .form:not(.summary) .table-courses tbody td:nth-of-type(4), .enroll-page .form:not(.summary) .table-courses tbody td:nth-of-type(5), .enroll-page .form:not(.summary) .table-courses tbody td:nth-of-type(6) {
+        width: 50%;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody td .field-check {
+        height: 111px;
+        height: 11.1rem;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody td .field-select, .enroll-page .form:not(.summary) .table-courses tbody td .field-timeofday, .enroll-page .form:not(.summary) .table-courses tbody td .field-price, .enroll-page .form:not(.summary) .table-courses tbody td .field-unspecified {
+        width: auto;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody td .select {
+        width: 100%;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody tr:last-of-type td:first-of-type {
+        width: 50%;
+        background-color: #d1d1d1;
+        margin-left: -37px;
+        margin-left: -3.7rem;
+        padding-left: 37px;
+        padding-left: 3.7rem;
+    }
+    .enroll-page .form:not(.summary) .table-courses tbody tr:last-of-type td:last-of-type {
+        width: 50%;
+        float: right;
+    }
+    .enroll-page .form.summary .table-courses {
+        width: 100%;
+    }
+    .enroll-page .form.summary .table-courses tbody {
+        display: block;
+    }
+    .enroll-page .form.summary .table-courses tbody tr:first-of-type {
+        display: none;
+    }
+    .enroll-page .form.summary .table-courses tbody td {
+        display: block;
+        float: left;
+    }
+    .enroll-page .form.summary .table-courses tbody td:nth-of-type(1) {
+        width: 100%;
+    }
+    .enroll-page .form.summary .table-courses tbody td:nth-of-type(2), .enroll-page .form.summary .table-courses tbody td:nth-of-type(3), .enroll-page .form.summary .table-courses tbody td:nth-of-type(4), .enroll-page .form.summary .table-courses tbody td:nth-of-type(5) {
+        width: 50%;
+    }
+    .enroll-page .form.summary .table-courses tbody td .field-select, .enroll-page .form.summary .table-courses tbody td .field-timeofday, .enroll-page .form.summary .table-courses tbody td .field-price, .enroll-page .form.summary .table-courses tbody td .field-unspecified {
+        width: auto;
+    }
+    .enroll-page .form.summary .table-courses tbody td .select {
+        margin-right: 37px;
+        margin-right: 3.7rem;
+        width: auto;
+    }
+    .enroll-page .form.summary .table-courses tbody tr:last-of-type td:first-of-type {
+        width: 50%;
+    }
+    .enroll-page .form.summary .table-courses tbody tr:last-of-type td:last-of-type {
+        width: 50%;
+        float: right;
+    }
+    .enroll-page .enroll-student {
+        width: 100%;
+        margin-right: 0;
+    }
+    .enroll-page .enroll-student .address-fields {
+        float: none;
+    }
+    .enroll-page .enroll-student .address-fields .row:nth-of-type(1) .col, .enroll-page .enroll-student .address-fields .row:nth-of-type(2) .col {
+        width: 60%;
+    }
+    .enroll-page .enroll-student .address-fields .row:nth-of-type(1) .col-last, .enroll-page .enroll-student .address-fields .row:nth-of-type(2) .col-last {
+        padding-left: 6px;
+        padding-left: 0.6rem;
+    }
+    .enroll-page .enroll-student .address-fields .row:nth-of-type(4) .col {
+        width: 38.4%;
+    }
+    .enroll-page .enroll-student .address-fields .row:nth-of-type(4) .col-last {
+        padding-left: 6px;
+        padding-left: 0.6rem;
+    }
+    .enroll-page .enroll-student .address-fields .row:nth-of-type(5) .field-select {
+        width: 66.66%;
+    }
+    .enroll-page .enroll-student .address-fields .row:nth-of-type(5) .field-select .select {
+        width: 100%;
+    }
+    .enroll-page .enroll-payer, .enroll-page .enroll-paymethod {
+        width: auto;
+    }
+    .enroll-page .enroll-payer > .col, .enroll-page .enroll-paymethod > .col {
+        float: none;
+        margin-right: 0;
+        width: auto;
+    }
+    .enroll-page .enroll-payerinfo {
+        width: 100%;
+        margin-right: 0;
+    }
+    .enroll-page .enroll-payerinfo .address-fields {
+        float: none;
+    }
+    .enroll-page .enroll-payerinfo .address-fields .row:nth-of-type(1) .col, .enroll-page .enroll-payerinfo .address-fields .row:nth-of-type(2) .col, .enroll-page .enroll-payerinfo .address-fields .row:nth-of-type(4) .col {
+        width: 100%;
+    }
+    .enroll-page .enroll-payerinfo .address-fields .row:nth-of-type(3) .col {
+        width: 60%;
+    }
+    .enroll-page .enroll-payerinfo .address-fields .row:nth-of-type(3) .col-last {
+        padding-left: 6px;
+        padding-left: 0.6rem;
+    }
+    .enroll-page .enroll-payerinfo .address-fields .row:nth-of-type(5) .col {
+        width: 38.4%;
+    }
+    .enroll-page .enroll-payerinfo .address-fields .row:nth-of-type(5) .col-last {
+        padding-left: 6px;
+        padding-left: 0.6rem;
+    }
+    .enroll-page .enroll-payerinfo .address-fields .row:nth-of-type(6) .field-select {
+        width: 66.66%;
+    }
+    .enroll-page .enroll-payerinfo .address-fields .row:nth-of-type(6) .field-select .select {
+        width: 100%;
+    }
+    .enroll-page .enroll-payerinfo .address-fields > label .field-select {
+        width: 100%;
+    }
+    .enroll-page .enroll-payerinfo .address-fields > label .field-select .select {
+        width: 100%;
+    }
+    .enroll-page .enroll-orderref .address-fields {
+        float: none;
+    }
+    .enroll-page .submit-form, .enroll-page .complete-form {
+        height: 74px;
+        height: 7.4rem;
+    }
+
+    .payment-form .col {
+        width: 100%;
+    }
+
+    .h1-oil {
+        font-size: 66px;
+        font-size: 6.6rem;
+    }
+
+    .h1-oilsub {
+        font-size: 19px;
+        font-size: 1.9rem;
+        width: 196px;
+        width: 19.6rem;
+    }
+
+    .p-oil, .list-oil, .h2-oil {
+        width: auto !important;
+    }
+
+    .oil-quote {
+        width: auto !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        float: none !important;
+    }
+
+    #page-1244 .oil-development .page-section {
+        background-size: 90%;
+        background-position: center top;
+    }
+    #page-1244 .oil-development .oil-quote {
+        margin-bottom: 30px;
+        margin-bottom: 3rem;
+        margin-top: 52%;
+    }
+    #page-1244 .oil-workers .page-section {
+        background-size: 90%;
+        background-position: center bottom;
+    }
+    #page-1244 .oil-workers .oil-quote {
+        margin-top: 30px;
+        margin-top: 3rem;
+        margin-bottom: 108%;
+    }
+    #page-1244 .oil-investments .page-section {
+        background-size: 90%;
+        background-position: right bottom;
+    }
+    #page-1244 .oil-investments .oil-quote {
+        margin-top: 30px;
+        margin-top: 3rem;
+        margin-bottom: 134%;
+    }
+    #page-1244 .oil-investments .oil-fact {
+        display: none;
+    }
+    #page-1244 .oil-future .page-section {
+        background-image: none;
+    }
+
+    #page-1245 .oil-fact, #page-1245 .oil-quote, #page-1246 .oil-fact, #page-1246 .oil-quote {
+        display: none;
+    }
+
+    #page-1662 .booking-header .h1-booking {
+        margin-bottom: 340px;
+        margin-bottom: 34rem;
+        font-size: 10vw;
+    }
+    #page-1662 .booking-header .h1-booking span {
+        display: inline-block;
+        white-space: nowrap;
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+    }
+    #page-1662 .booking-header .h2-booking, #page-1662 .booking-header .h3-booking {
+        text-align: center;
+        line-height: 1.2;
+    }
+    #page-1662 .booking-header .h3-booking {
+        margin-bottom: 0;
+    }
+    #page-1662 .booking-header .complete-form {
+        line-height: 1;
+    }
+    #page-1662 .booking-header .page-section {
+        background-size: 360px;
+        background-size: 36rem;
+        background-position: center top 43vw;
+    }
+    #page-1662 .booking-communication .page-section {
+        background-size: 31%;
+        background-position: center bottom;
+    }
+    #page-1662 .booking-communication p:last-of-type {
+        margin-bottom: 70%;
+    }
+    #page-1662 .booking-overview .page-section {
+        background-size: 50%;
+        background-position: center bottom;
+    }
+    #page-1662 .booking-overview p:last-of-type {
+        margin-bottom: 70%;
+    }
+    #page-1662 .booking-employees .page-section {
+        background-size: 90%;
+    }
+    #page-1662 .booking-employees p:last-of-type {
+        margin-bottom: 97%;
+    }
+    #page-1662 .booking-free .page-section {
+        background-size: 57%;
+        background-position: center bottom;
+    }
+    #page-1662 .booking-free p:last-of-type {
+        margin-bottom: 61%;
+    }
+}
+@media (min-width: 741px) and (max-width: 800px) {
+    html {
+        font-size: 8.8px;
+    }
+}
+@media (min-width: 801px) and (max-width: 1000px) {
+    html {
+        font-size: 8.8px;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1300px) {
+    html {
+        font-size: 8.8px;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1300px) {
+    html {
+        font-size: 8.8px;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1801px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media (min-width: 1801px) {
+    html {
+        font-size: 11.9px;
+    }
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    background: #404144;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.dev-warning {
+    z-index: 1000;
+    position: fixed;
+    background-color: #ce3627;
+    color: white;
+    font-weight: 600;
+    bottom: 0;
+}
+
+.noscript {
+    font-size: 16px;
+    font-size: 1.6rem;
+    background-color: #ce3627;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

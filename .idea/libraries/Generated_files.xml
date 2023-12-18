@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/assets/js/_accordion.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/_checkout.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/_course.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/_menu.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/_video-lightbox.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/checkout-multistep.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/checkout-steps.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/checkout.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/common.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/assets/js/_accordion.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/_checkout.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/_course.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/_menu.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/_video-lightbox.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/checkout-multistep.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/checkout-steps.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/checkout.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/common.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,16 @@
+{
+  "name": "misha/offshoreutdanning",
+  "autoload": {
+    "psr-4": {
+      "wp_load\\": "../../../wp-load.php",
+      "X2RestApi\\": "api/testRestApi.php"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mykhailo Shevchenko",
+      "email": "mishashevchenko94@gmail.com"
+    }
+  ],
+  "require": {}
+}

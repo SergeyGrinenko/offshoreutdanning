@@ -1,0 +1,41 @@
+@import '../variables';
+.wp-block-acf-offutd-button{
+  height: auto !important;
+  .offutd_button {
+    height: auto !important;
+    .btn {
+      min-width: 90px;
+      width: 100%;
+      padding: 6px;
+      margin: 0;
+      display: inline-flex;
+      vertical-align: middle;
+      align-items: center;
+      transition: .3s;
+      box-sizing: border-box;
+      text-decoration: none;
+      text-align: center;
+      justify-content: center;
+
+      &.bg-pink {
+        background: $pink;
+      }
+
+      &.bg-primary {
+        background: $primary;
+      }
+
+      &.bg-secondary {
+        background: $secondary;
+      }
+
+      &.text-dark {
+        color: $dark
+      }
+
+      &.text-light {
+        color: $light;
+      }
+    }
+  }
+}

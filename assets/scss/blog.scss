@@ -1,0 +1,139 @@
+@import "variables";
+
+.profesional-courses {
+  .course-item {
+    text-align: center;
+    max-width: 300px;
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+
+    a {
+      max-width: max-content;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      @media (max-width: 768px) {
+        margin-top: 15px !important;
+      }
+    }
+  }
+}
+
+.help-header {
+  min-height: 150px;
+
+  &__TypeName, a {
+    max-width: 240px;
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: auto;
+  }
+
+  img{
+    object-fit: cover;
+    min-height: inherit;
+  }
+}
+
+.post-sidebar {
+  a {
+    color: $secondary;
+  }
+}
+
+.help-posts {
+  .term-items {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: $main-indent;
+
+    a {
+      transition: .3s;
+
+      &:hover {
+        filter: brightness(0.95);
+      }
+    }
+  }
+}
+
+
+
+.wp-block-columns {
+  grid-gap: 15px;
+}
+
+.profession-guide__sidebar {
+  background: $primary;
+  padding: $main-indent;
+  color: $white;
+  line-height: 25px;
+
+  h2, h3, h4, h5 {
+    margin: 0;
+  }
+
+  ul {
+    list-style: square;
+    padding-left: 23px;
+  }
+
+  a {
+    color: $dark;
+    text-decoration: underline;
+  }
+}
+
+table {
+  background: $info;
+
+  thead {
+    tr {
+      th {
+        background: $info;
+        padding: $spaser;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        background: $white;
+        border: 1px solid $info;
+        padding: $main-indent;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  table thead {
+    display: none;
+  }
+  table td {
+    display: flex;
+    padding: 10px 8px !important;
+    font-size: 14px;
+    grid-gap: 10px;
+  }
+
+  table td::before {
+    content: attr(label);
+    font-weight: bold;
+    width: 100%;
+    max-width: max-content;
+    min-width: 88px;
+  }
+}
+
+@media(max-width: 389px) {
+  table td {
+    display: grid;
+  }
+}

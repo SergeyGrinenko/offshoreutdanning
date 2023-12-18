@@ -1,0 +1,9 @@
+@import "variables";
+
+@font-face {
+  font-family: "Inter";
+  src: url('#{$assets-path}fonts/Inter/Inter.woff');
+  font-weight: 400;
+  font-display: swap;
+}
+

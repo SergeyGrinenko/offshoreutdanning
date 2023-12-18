@@ -1,0 +1,114 @@
+//@import 'breakpoints';
+@import 'global';
+
+/* List all courses page*/
+
+.page-listallcourses {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--maxwidthcontent);
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  .page-listallcourses-top {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+
+    h1 {
+      font-weight: 600;
+      flex: auto;
+    }
+
+    .page-listallcourses-searchbox {
+      flex: 0 0 30rem;
+      height: 2rem;
+      margin-top: 0.8rem;
+      margin-right: 0;
+      border: 2px solid #1dbf21;
+      padding: 0.8rem 1.6rem;
+      background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4xLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIzN3B4IiBoZWlnaHQ9IjM3cHgiIHZpZXdCb3g9Ii0xMzAgMTkxLjUgMzcgMzciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgLTEzMCAxOTEuNSAzNyAzNyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Y2lyY2xlIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0NDQ0NDQyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgY3g9Ii0xMTMuOCIgY3k9IjIwNy43IiByPSI3LjUiLz4NCgk8bGluZSBmaWxsPSJub25lIiBzdHJva2U9IiNDQ0NDQ0MiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSItMTA4LjUiIHkxPSIyMTMiIHgyPSItMTAxLjciIHkyPSIyMTkuOSIvPg0KPC9nPg0KPC9zdmc+DQo=");
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+
+      @media (max-width: 450px) {
+        width: 100%;
+        max-width: 50%;
+      }
+    }
+  }
+
+  .page-listallcourses-wrapper {
+    .page-listallcourses-group {
+      h2 {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        font-size: 1.6rem;
+        background-color: var(--buttonactive);
+        color: white;
+        display: inline-block;
+      }
+
+      li {
+        list-style: none;
+        margin-bottom: 2px;
+      }
+
+      a {
+        display: flex;
+        box-sizing: border-box;
+        background-color: var(--accent1);
+        width: 100%;
+        color: black;
+        text-decoration: none;
+        padding-left: 1.6rem;
+        border-bottom: 0;
+        font-size: 1.6rem;
+
+        &:hover {
+          color: black;
+          background-color: var(--accent3);
+        }
+
+        span {
+
+          &.arrow{
+            flex: 0 0 4rem;
+            align-items: center;
+            background-color: var(--accent2);
+            background-image: url(/wp-content/themes/offshoreutdanning/assets/images/icon-right.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+          }
+
+          &.itemprice {
+            flex: 0 0 12rem;
+            text-align: center;
+            background-color: #e29c00;
+            padding: 0.8rem 0 0.8rem 0;
+            white-space: nowrap;
+            background-image: none;
+            color: white;
+            justify-content: center;
+            display: flex;
+          }
+        }
+
+        p {
+          flex: auto;
+          font-size: 1.4rem;
+          padding-top: 0.8rem;
+          padding-bottom: 0.8rem;
+          margin: 0;
+        }
+      }
+    }
+
+    .archive_product_item {
+      margin-bottom: 2px;
+    }
+  }
+}
+
+
+//////////////////////////

@@ -1,0 +1,55 @@
+/*
+Error: It's not clear which file to import for '@import "global"'.
+       Candidates:
+         _global.scss
+         global.scss
+       Please delete or rename all but one of these files.
+        on line 1 of hjelp.scss
+
+1: @import 'global';
+2: /*Archive Help*\/
+3: 
+4: .help-archive-tpl > div {
+5:   @media (min-width: 768px) {
+6:     display: grid;
+
+Backtrace:
+hjelp.scss:1
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:44:in `import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+C:/Ruby31-x64/bin/sass:32:in `load'
+C:/Ruby31-x64/bin/sass:32:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: It's not clear which file to import for '@import \"global\"'.\A        Candidates:\A          _global.scss\A          global.scss\A        Please delete or rename all but one of these files.\A         on line 1 of hjelp.scss\A \A 1: @import 'global';\A 2: /*Archive Help*/\A 3: \A 4: .help-archive-tpl > div {\A 5:   @media (min-width: 768px) {\A 6:     display: grid;"; }

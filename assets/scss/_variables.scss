@@ -1,0 +1,60 @@
+$main-fs: 18px;
+$softdark: #404144;
+$dark: #1e1f22;
+$light: #f2f2f2;
+$primary: #009af0;
+$secondary: #003250;
+$success: #1dbf21;
+$info: #d1d1d1;
+$warning: #eda426;
+$danger: #b60000;
+$light-hover: #e8e8e8;
+$gray: #888888;
+$white: #ffffff;
+$pink: #a80073;
+$washedblue: #323e49;
+$light-1: #EAE8E3;
+$dark-2: #2E2E31;
+$assets-path: '/wp-content/themes/offshoreutdanning/assets/';
+
+$theme-colors: (
+        "primary": $primary,
+        "secondary": $secondary,
+        "success": $success,
+        "info": $info,
+        "warning": $warning,
+        "danger": $danger,
+        "light": $light,
+        "dark": $dark,
+        "softdark": $softdark,
+        "gray": $gray,
+        "white": $white,
+        'pink': $pink,
+        'washedblue': $washedblue,
+        'light-1': $light-1,
+        'dark-2': $dark-2
+);
+$spaser: 10px;
+$main-indent: 15px;
+
+
+$spacers: (
+        "0" : 0,
+        "1" : $spaser,
+        "2" : $spaser * .5,
+        "3" : $spaser * 1.5,
+);
+
+$columns: (
+        '100' : 100%,
+        '90' : 90%,
+        '80' : 80%,
+        '70' : 70%,
+        '60' : 60%,
+        '50' : 50%,
+        '40' : 40%,
+        '30' : 30%,
+        '20' : 20%,
+        '1' : 10%,
+);
+
